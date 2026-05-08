@@ -27,10 +27,6 @@ and Australia's 2030 National Road Safety Target.
 
 ---
 
-##  Repository Structure
-
----
-
 ##  Datasets
 
 ### Primary Dataset
@@ -64,7 +60,6 @@ and Australia's 2030 National Road Safety Target.
 
 - [ ] **What-If Parameterization** — slider to model lives saved under different speed reduction scenarios
 - [ ] **Context-Aware Filtering** — selections update narrative text and visuals dynamically
-- [ ] **Visual Tooltips** — hover reveals deeper stats and mini-charts
 
 ---
 
