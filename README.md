@@ -1,14 +1,14 @@
 #  Road Deaths Are Not Random
 ### DVN Assignment 3 — Data Narrative Studio
 
-> *"Across Australia's road fatality record, deaths are not random. This dashboard shows where they are concentrated — and what a Transport Minister can do about it."*
+> *"Across Australia's road fatality record, deaths are not random. This dashboard shows where they are concentrated and what a Transport Minister can do about it."*
 
 ---
 
 ##  Project Overview
 
 We are a specialist data consultancy presenting to a **State Transport Minister**.
-Using the **Sparkline narrative arc** — showing the gap between current road deaths 
+Using the **Sparkline narrative arc** showing the gap between current road deaths 
 and Australia's 2030 National Road Safety Target.
 
 ---
