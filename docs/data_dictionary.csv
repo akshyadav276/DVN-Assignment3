@@ -1,0 +1,61 @@
+dataset,column,type,definition,dashboard_use,notes
+bitre_clean_detail.csv,crash_id,Integer,Unique crash identifier from BITRE,Traceability only; usually hidden from visuals,Duplicate crash IDs can be valid because one crash may involve multiple fatalities
+bitre_clean_detail.csv,state,Text,Australian state or territory code,Main filter; state comparisons; population join,"Values: ACT, NSW, NT, QLD, SA, TAS, VIC, WA"
+bitre_clean_detail.csv,month,Integer,Month of fatality record from 1 to 12,Time filtering and monthly aggregation,Used with year to join monthly weather
+bitre_clean_detail.csv,year,Integer,Calendar year of fatality record,Trend; filter; population join,1989 to 2026 in BITRE file
+bitre_clean_detail.csv,dayweek,Text,Day of week of the fatal crash,Time-risk heatmap,Monday to Sunday
+bitre_clean_detail.csv,time,Text,Recorded crash time,Source field for hour and time_band,Use derived time_band for dashboard readability
+bitre_clean_detail.csv,crash_type,Text,Whether the crash was single-vehicle multiple-vehicle or unknown,Road environment and pattern analysis,Useful with speed and road type
+bitre_clean_detail.csv,bus_involvement,Text,Whether a bus was involved,Tooltip/filter for heavy-vehicle context,"Values standardised to Yes, No, Unknown"
+bitre_clean_detail.csv,heavy_rigid_truck_involvement,Text,Whether a heavy rigid truck was involved,Tooltip/filter for heavy-vehicle context,Historical missingness is high so use carefully
+bitre_clean_detail.csv,articulated_truck_involvement,Text,Whether an articulated truck was involved,Tooltip/filter for heavy-vehicle context,"Values standardised to Yes, No, Unknown"
+bitre_clean_detail.csv,speed_limit,Numeric,Posted speed limit at crash location,Road environment analysis,Missing or -9 values converted to blank/unknown
+bitre_clean_detail.csv,road_user,Text,Road-user type of the fatality,Road-user exposure visual,"Driver, passenger, pedestrian, motorcycle rider, pedal cyclist, etc."
+bitre_clean_detail.csv,gender,Text,Gender of person killed,Demographic breakdown and tooltip,Use with sensitivity; avoid overclaiming without exposure data
+bitre_clean_detail.csv,age,Numeric,Age of person killed,Source for age_band; tooltip detail,-9 converted to missing
+bitre_clean_detail.csv,national_remoteness_areas_2021,Text,ABS remoteness category for crash location,Source for remoteness_group,Historical records have many Unknown values; recent data is more complete
+bitre_clean_detail.csv,sa4_name_2021,Text,Statistical Area Level 4 name,Geographic detail; tooltip; optional ranking,Stronger in recent years than historical records
+bitre_clean_detail.csv,national_lga_name_2021,Text,Local Government Area name,Local detail; tooltip; optional ranking,Stronger in recent years than historical records
+bitre_clean_detail.csv,national_road_type,Text,Type/classification of road,Road environment matrix,Historical records have many Unknown values
+bitre_clean_detail.csv,christmas_period,Text,Whether fatality occurred in BITRE Christmas period,Holiday-period filter/context,"Values: Yes, No"
+bitre_clean_detail.csv,easter_period,Text,Whether fatality occurred in BITRE Easter period,Holiday-period filter/context,"Values: Yes, No"
+bitre_clean_detail.csv,month_start,Date,Month-start date created from year and month,Time-series axis and monthly aggregation,Not exact crash date; BITRE file provides month/year not day
+bitre_clean_detail.csv,year_month,Text,Year-month label,Join key support and labels,Format: YYYY-MM
+bitre_clean_detail.csv,month_name,Text,Month name derived from month_start,Seasonal/monthly labels,"Example: January, February"
+bitre_clean_detail.csv,deaths,Integer,Count field where each fatality row equals 1,Measure for counts and aggregations,Sum to calculate fatalities
+bitre_clean_detail.csv,age_band,Text,Age grouped into dashboard-friendly bands,Road-user exposure and demographic visuals,"Values: 0-16, 17-25, 26-39, 40-64, 65+, Unknown"
+bitre_clean_detail.csv,hour,Numeric,Hour extracted from time,Source for time-band analysis,Missing if time cannot be parsed
+bitre_clean_detail.csv,time_band,Text,Crash time grouped into policy-relevant time windows,Day x time heatmap,"Late night, morning commute, daytime, evening commute, night"
+bitre_clean_detail.csv,speed_band,Text,Speed limit grouped into broader risk environments,Risk segment matrix,"Local/urban, urban arterial, high speed, very high speed, Unknown"
+bitre_clean_detail.csv,road_user_group,Text,Road users grouped into vulnerable road users vs vehicle occupants,High-level exposure comparison,Vulnerable includes pedestrians cyclists motorcycle riders and pillion passengers
+bitre_clean_detail.csv,remoteness_group,Text,Simplified remoteness category,Risk segment matrix and filter,Remote and Very Remote combined
+bitre_clean_detail.csv,holiday_period,Text,Combined Christmas/Easter flag,Holiday-period filter or annotation,"Values: Christmas / Easter, Non-holiday"
+bitre_clean_detail.csv,heavy_vehicle_involved,Text,Combined flag for bus heavy rigid truck or articulated truck involvement,Filter/tooltip for heavy-vehicle context,"Values: Yes, No, Unknown"
+bitre_clean_detail.csv,analysis_window,Text,Historical vs latest-period flag,Dashboard toggle/filter,Historical: 1989-2023; Recent: 2024-Jan 2026
+bitre_clean_detail.csv,full_recent_year,Text,Flag for full recent years,Fair annual comparison filter,2024-2025 full years vs Other
+bitre_state_month.csv,month_start,Date,Month-start date for the state-month record,Historical line chart axis,Created from BITRE year and month
+bitre_state_month.csv,year,Integer,Calendar year,Filter; trend; population join if needed,1989 to 2026
+bitre_state_month.csv,month,Integer,Month number from 1 to 12,Monthly filtering and labels,Use with year for chronology
+bitre_state_month.csv,year_month,Text,Year-month label,Tooltip or label,Format: YYYY-MM
+bitre_state_month.csv,state,Text,Australian state or territory code,State filter and trend colour,"Values: ACT, NSW, NT, QLD, SA, TAS, VIC, WA"
+bitre_state_month.csv,fatalities,Integer,Number of fatality rows in that state-month,Historical trend measure,Aggregated by summing deaths from BITRE detail
+population_state_year_clean.csv,year,Integer,Calendar year for the population denominator,Join key with BITRE,1981 to 2025
+population_state_year_clean.csv,quarter_date,Date/Text,June-quarter date used as annual population reference,Documentation and validation,June quarter chosen as annual denominator
+population_state_year_clean.csv,state,Text,Australian state or territory code,Join key with BITRE,Excludes Australia total AUS
+population_state_year_clean.csv,state_name,Text,Full state or territory name,Label or tooltip,Example: New South Wales
+population_state_year_clean.csv,population,Integer,Estimated resident population persons,Fatalities per 100000 calculation,Use as denominator; do not sum repeated population after row-level joins
+weather_monthly_state_clean_2024_jan2026.csv,state,Text,Australian state or territory code,Join key with BITRE,"Values: ACT, NSW, NT, QLD, SA, TAS, VIC, WA"
+weather_monthly_state_clean_2024_jan2026.csv,city,Text,Representative capital city used for weather extraction,Data provenance/tooltip,Weather is representative state-month context not exact crash-site weather
+weather_monthly_state_clean_2024_jan2026.csv,year,Integer,Calendar year of weather month,Join key with BITRE,Covers 2024 2025 and Jan 2026
+weather_monthly_state_clean_2024_jan2026.csv,month,Integer,Month number from 1 to 12,Join key with BITRE,Join by state + year + month
+weather_monthly_state_clean_2024_jan2026.csv,year_month,Text,Year-month label,Tooltip or label,Format: YYYY-MM
+weather_monthly_state_clean_2024_jan2026.csv,avg_temp_mean,Numeric,Average of daily mean temperature for the state-month,Weather context tooltip/panel,Units: degrees C
+weather_monthly_state_clean_2024_jan2026.csv,max_temp,Numeric,Highest daily maximum temperature in the state-month,Heat context,Units: degrees C
+weather_monthly_state_clean_2024_jan2026.csv,min_temp,Numeric,Lowest daily minimum temperature in the state-month,Weather context,Units: degrees C
+weather_monthly_state_clean_2024_jan2026.csv,total_precipitation_mm,Numeric,Total monthly precipitation,Rain context,Units: millimetres
+weather_monthly_state_clean_2024_jan2026.csv,total_rain_mm,Numeric,Total monthly rain,Rain context,Units: millimetres
+weather_monthly_state_clean_2024_jan2026.csv,max_wind_speed_kmh,Numeric,Maximum daily wind speed recorded in the state-month,Wind context,Units: km/h
+weather_monthly_state_clean_2024_jan2026.csv,rainy_days,Integer,Count of days in the month where rain was recorded,Rain context tooltip,Range: 0 to 31
+weather_monthly_state_clean_2024_jan2026.csv,rain_context,Text,Categorised monthly rain level,Filter/tooltip context,"Low, Moderate, High, Extreme rain"
+weather_monthly_state_clean_2024_jan2026.csv,heat_context,Text,Categorised monthly heat level based on maximum temperature,Filter/tooltip context,"Below 30C, 30-35C, 35-40C, 40C+"
+weather_monthly_state_clean_2024_jan2026.csv,wind_context,Text,Categorised monthly wind level,Filter/tooltip context,"Low, Moderate, High, Extreme wind"
