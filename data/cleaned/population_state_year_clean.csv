@@ -1,0 +1,361 @@
+year,quarter_date,state,state_name,population
+1981,01/06/81,ACT,Australian Capital Territory,227581
+1981,01/06/81,NSW,New South Wales,5234889
+1981,01/06/81,NT,Northern Territory,122616
+1981,01/06/81,QLD,Queensland,2345208
+1981,01/06/81,SA,South Australia,1318769
+1981,01/06/81,TAS,Tasmania,427224
+1981,01/06/81,VIC,Victoria,3946917
+1981,01/06/81,WA,Western Australia,1300056
+1982,01/06/82,ACT,Australian Capital Territory,233045
+1982,01/06/82,NSW,New South Wales,5303580
+1982,01/06/82,NT,Northern Territory,130314
+1982,01/06/82,QLD,Queensland,2424586
+1982,01/06/82,SA,South Australia,1331108
+1982,01/06/82,TAS,Tasmania,429845
+1982,01/06/82,VIC,Victoria,3992870
+1982,01/06/82,WA,Western Australia,1338899
+1983,01/06/83,ACT,Australian Capital Territory,238983
+1983,01/06/83,NSW,New South Wales,5352959
+1983,01/06/83,NT,Northern Territory,135916
+1983,01/06/83,QLD,Queensland,2482282
+1983,01/06/83,SA,South Australia,1345775
+1983,01/06/83,TAS,Tasmania,432805
+1983,01/06/83,VIC,Victoria,4035702
+1983,01/06/83,WA,Western Australia,1369050
+1984,01/06/84,ACT,Australian Capital Territory,245112
+1984,01/06/84,NSW,New South Wales,5402729
+1984,01/06/84,NT,Northern Territory,142154
+1984,01/06/84,QLD,Queensland,2523859
+1984,01/06/84,SA,South Australia,1360048
+1984,01/06/84,TAS,Tasmania,437760
+1984,01/06/84,VIC,Victoria,4076492
+1984,01/06/84,WA,Western Australia,1391237
+1985,01/06/85,ACT,Australian Capital Territory,251389
+1985,01/06/85,NSW,New South Wales,5464512
+1985,01/06/85,NT,Northern Territory,148536
+1985,01/06/85,QLD,Queensland,2571218
+1985,01/06/85,SA,South Australia,1371197
+1985,01/06/85,TAS,Tasmania,442828
+1985,01/06/85,VIC,Victoria,4120068
+1985,01/06/85,WA,Western Australia,1418564
+1986,01/06/86,ACT,Australian Capital Territory,258910
+1986,01/06/86,NSW,New South Wales,5531526
+1986,01/06/86,NT,Northern Territory,154421
+1986,01/06/86,QLD,Queensland,2624595
+1986,01/06/86,SA,South Australia,1382550
+1986,01/06/86,TAS,Tasmania,446473
+1986,01/06/86,VIC,Victoria,4160856
+1986,01/06/86,WA,Western Australia,1459019
+1987,01/06/87,ACT,Australian Capital Territory,265477
+1987,01/06/87,NSW,New South Wales,5616736
+1987,01/06/87,NT,Northern Territory,158205
+1987,01/06/87,QLD,Queensland,2675107
+1987,01/06/87,SA,South Australia,1392764
+1987,01/06/87,TAS,Tasmania,449226
+1987,01/06/87,VIC,Victoria,4210111
+1987,01/06/87,WA,Western Australia,1496248
+1988,01/06/88,ACT,Australian Capital Territory,272129
+1988,01/06/88,NSW,New South Wales,5707309
+1988,01/06/88,NT,Northern Territory,159026
+1988,01/06/88,QLD,Queensland,2739907
+1988,01/06/88,SA,South Australia,1404909
+1988,01/06/88,TAS,Tasmania,451148
+1988,01/06/88,VIC,Victoria,4262569
+1988,01/06/88,WA,Western Australia,1535167
+1989,01/06/89,ACT,Australian Capital Territory,276432
+1989,01/06/89,NSW,New South Wales,5776283
+1989,01/06/89,NT,Northern Territory,161179
+1989,01/06/89,QLD,Queensland,2827637
+1989,01/06/89,SA,South Australia,1419029
+1989,01/06/89,TAS,Tasmania,455258
+1989,01/06/89,VIC,Victoria,4320164
+1989,01/06/89,WA,Western Australia,1578434
+1990,01/06/90,ACT,Australian Capital Territory,282211
+1990,01/06/90,NSW,New South Wales,5834021
+1990,01/06/90,NT,Northern Territory,163728
+1990,01/06/90,QLD,Queensland,2899283
+1990,01/06/90,SA,South Australia,1432056
+1990,01/06/90,TAS,Tasmania,462188
+1990,01/06/90,VIC,Victoria,4378592
+1990,01/06/90,WA,Western Australia,1613049
+1991,01/06/91,ACT,Australian Capital Territory,289320
+1991,01/06/91,NSW,New South Wales,5898731
+1991,01/06/91,NT,Northern Territory,165493
+1991,01/06/91,QLD,Queensland,2960951
+1991,01/06/91,SA,South Australia,1446299
+1991,01/06/91,TAS,Tasmania,466802
+1991,01/06/91,VIC,Victoria,4420373
+1991,01/06/91,WA,Western Australia,1636067
+1992,01/06/92,ACT,Australian Capital Territory,294887
+1992,01/06/92,NSW,New South Wales,5957822
+1992,01/06/92,NT,Northern Territory,168546
+1992,01/06/92,QLD,Queensland,3023198
+1992,01/06/92,SA,South Australia,1455442
+1992,01/06/92,TAS,Tasmania,469979
+1992,01/06/92,VIC,Victoria,4450217
+1992,01/06/92,WA,Western Australia,1658544
+1993,01/06/93,ACT,Australian Capital Territory,299753
+1993,01/06/93,NSW,New South Wales,5995055
+1993,01/06/93,NT,Northern Territory,171708
+1993,01/06/93,QLD,Queensland,3096185
+1993,01/06/93,SA,South Australia,1458632
+1993,01/06/93,TAS,Tasmania,471987
+1993,01/06/93,VIC,Victoria,4462766
+1993,01/06/93,WA,Western Australia,1678722
+1994,01/06/94,ACT,Australian Capital Territory,302194
+1994,01/06/94,NSW,New South Wales,6044819
+1994,01/06/94,NT,Northern Territory,174908
+1994,01/06/94,QLD,Queensland,3166566
+1994,01/06/94,SA,South Australia,1463089
+1994,01/06/94,TAS,Tasmania,473499
+1994,01/06/94,VIC,Victoria,4472989
+1994,01/06/94,WA,Western Australia,1704649
+1995,01/06/95,ACT,Australian Capital Territory,305838
+1995,01/06/95,NSW,New South Wales,6105560
+1995,01/06/95,NT,Northern Territory,179602
+1995,01/06/95,QLD,Queensland,3237380
+1995,01/06/95,SA,South Australia,1465340
+1995,01/06/95,TAS,Tasmania,474515
+1995,01/06/95,VIC,Victoria,4497660
+1995,01/06/95,WA,Western Australia,1736066
+1996,01/06/96,ACT,Australian Capital Territory,309629
+1996,01/06/96,NSW,New South Wales,6176461
+1996,01/06/96,NT,Northern Territory,184516
+1996,01/06/96,QLD,Queensland,3303192
+1996,01/06/96,SA,South Australia,1469079
+1996,01/06/96,TAS,Tasmania,475605
+1996,01/06/96,VIC,Victoria,4534984
+1996,01/06/96,WA,Western Australia,1768206
+1997,01/06/97,ACT,Australian Capital Territory,310533
+1997,01/06/97,NSW,New South Wales,6246267
+1997,01/06/97,NT,Northern Territory,189755
+1997,01/06/97,QLD,Queensland,3355417
+1997,01/06/97,SA,South Australia,1475658
+1997,01/06/97,TAS,Tasmania,474908
+1997,01/06/97,VIC,Victoria,4569297
+1997,01/06/97,WA,Western Australia,1798341
+1998,01/06/98,ACT,Australian Capital Territory,311532
+1998,01/06/98,NSW,New South Wales,6305799
+1998,01/06/98,NT,Northern Territory,192905
+1998,01/06/98,QLD,Queensland,3404484
+1998,01/06/98,SA,South Australia,1483270
+1998,01/06/98,TAS,Tasmania,473430
+1998,01/06/98,VIC,Victoria,4606970
+1998,01/06/98,WA,Western Australia,1826440
+1999,01/06/99,ACT,Australian Capital Territory,314171
+1999,01/06/99,NSW,New South Wales,6375103
+1999,01/06/99,NT,Northern Territory,196012
+1999,01/06/99,QLD,Queensland,3453936
+1999,01/06/99,SA,South Australia,1490934
+1999,01/06/99,TAS,Tasmania,473030
+1999,01/06/99,VIC,Victoria,4652462
+1999,01/06/99,WA,Western Australia,1853936
+2000,01/06/00,ACT,Australian Capital Territory,317235
+2000,01/06/00,NSW,New South Wales,6446558
+2000,01/06/00,NT,Northern Territory,199149
+2000,01/06/00,QLD,Queensland,3509458
+2000,01/06/00,SA,South Australia,1497503
+2000,01/06/00,TAS,Tasmania,473123
+2000,01/06/00,VIC,Victoria,4704065
+2000,01/06/00,WA,Western Australia,1879093
+2001,01/06/01,ACT,Australian Capital Territory,321538
+2001,01/06/01,NSW,New South Wales,6530349
+2001,01/06/01,NT,Northern Territory,201743
+2001,01/06/01,QLD,Queensland,3571469
+2001,01/06/01,SA,South Australia,1503461
+2001,01/06/01,TAS,Tasmania,473668
+2001,01/06/01,VIC,Victoria,4763615
+2001,01/06/01,WA,Western Australia,1906274
+2002,01/06/02,ACT,Australian Capital Territory,324627
+2002,01/06/02,NSW,New South Wales,6580807
+2002,01/06/02,NT,Northern Territory,202251
+2002,01/06/02,QLD,Queensland,3653123
+2002,01/06/02,SA,South Australia,1511567
+2002,01/06/02,TAS,Tasmania,474152
+2002,01/06/02,VIC,Victoria,4817774
+2002,01/06/02,WA,Western Australia,1928512
+2003,01/06/03,ACT,Australian Capital Territory,327357
+2003,01/06/03,NSW,New South Wales,6620715
+2003,01/06/03,NT,Northern Territory,201725
+2003,01/06/03,QLD,Queensland,3743121
+2003,01/06/03,SA,South Australia,1520399
+2003,01/06/03,TAS,Tasmania,478534
+2003,01/06/03,VIC,Victoria,4873809
+2003,01/06/03,WA,Western Australia,1952741
+2004,01/06/04,ACT,Australian Capital Territory,328940
+2004,01/06/04,NSW,New South Wales,6650735
+2004,01/06/04,NT,Northern Territory,202663
+2004,01/06/04,QLD,Queensland,3829970
+2004,01/06/04,SA,South Australia,1528189
+2004,01/06/04,TAS,Tasmania,483178
+2004,01/06/04,VIC,Victoria,4927149
+2004,01/06/04,WA,Western Australia,1979542
+2005,01/06/05,ACT,Australian Capital Territory,331399
+2005,01/06/05,NSW,New South Wales,6693206
+2005,01/06/05,NT,Northern Territory,205905
+2005,01/06/05,QLD,Queensland,3918494
+2005,01/06/05,SA,South Australia,1538804
+2005,01/06/05,TAS,Tasmania,486202
+2005,01/06/05,VIC,Victoria,4989246
+2005,01/06/05,WA,Western Australia,2011207
+2006,01/06/06,ACT,Australian Capital Territory,335170
+2006,01/06/06,NSW,New South Wales,6742690
+2006,01/06/06,NT,Northern Territory,209057
+2006,01/06/06,QLD,Queensland,4007992
+2006,01/06/06,SA,South Australia,1552529
+2006,01/06/06,TAS,Tasmania,489302
+2006,01/06/06,VIC,Victoria,5061266
+2006,01/06/06,WA,Western Australia,2050581
+2007,01/06/07,ACT,Australian Capital Territory,342644
+2007,01/06/07,NSW,New South Wales,6834156
+2007,01/06/07,NT,Northern Territory,213748
+2007,01/06/07,QLD,Queensland,4111018
+2007,01/06/07,SA,South Australia,1570619
+2007,01/06/07,TAS,Tasmania,493262
+2007,01/06/07,VIC,Victoria,5153522
+2007,01/06/07,WA,Western Australia,2106139
+2008,01/06/08,ACT,Australian Capital Territory,348368
+2008,01/06/08,NSW,New South Wales,6943461
+2008,01/06/08,NT,Northern Territory,219874
+2008,01/06/08,QLD,Queensland,4219505
+2008,01/06/08,SA,South Australia,1588665
+2008,01/06/08,TAS,Tasmania,498568
+2008,01/06/08,VIC,Victoria,5256375
+2008,01/06/08,WA,Western Australia,2171700
+2009,01/06/09,ACT,Australian Capital Territory,354785
+2009,01/06/09,NSW,New South Wales,7053755
+2009,01/06/09,NT,Northern Territory,226027
+2009,01/06/09,QLD,Queensland,4328771
+2009,01/06/09,SA,South Australia,1608902
+2009,01/06/09,TAS,Tasmania,504353
+2009,01/06/09,VIC,Victoria,5371934
+2009,01/06/09,WA,Western Australia,2240250
+2010,01/06/10,ACT,Australian Capital Territory,361766
+2010,01/06/10,NSW,New South Wales,7144292
+2010,01/06/10,NT,Northern Territory,229778
+2010,01/06/10,QLD,Queensland,4404744
+2010,01/06/10,SA,South Australia,1627322
+2010,01/06/10,TAS,Tasmania,508847
+2010,01/06/10,VIC,Victoria,5461101
+2010,01/06/10,WA,Western Australia,2290845
+2011,01/06/11,ACT,Australian Capital Territory,367985
+2011,01/06/11,NSW,New South Wales,7218529
+2011,01/06/11,NT,Northern Territory,231292
+2011,01/06/11,QLD,Queensland,4476778
+2011,01/06/11,SA,South Australia,1639614
+2011,01/06/11,TAS,Tasmania,511483
+2011,01/06/11,VIC,Victoria,5537817
+2011,01/06/11,WA,Western Australia,2353409
+2012,01/06/12,ACT,Australian Capital Territory,376539
+2012,01/06/12,NSW,New South Wales,7304244
+2012,01/06/12,NT,Northern Territory,235915
+2012,01/06/12,QLD,Queensland,4568687
+2012,01/06/12,SA,South Australia,1656725
+2012,01/06/12,TAS,Tasmania,511724
+2012,01/06/12,VIC,Victoria,5651091
+2012,01/06/12,WA,Western Australia,2425507
+2013,01/06/13,ACT,Australian Capital Territory,383257
+2013,01/06/13,NSW,New South Wales,7404032
+2013,01/06/13,NT,Northern Territory,241722
+2013,01/06/13,QLD,Queensland,4652824
+2013,01/06/13,SA,South Australia,1671488
+2013,01/06/13,TAS,Tasmania,512231
+2013,01/06/13,VIC,Victoria,5772669
+2013,01/06/13,WA,Western Australia,2486944
+2014,01/06/14,ACT,Australian Capital Territory,388799
+2014,01/06/14,NSW,New South Wales,7508353
+2014,01/06/14,NT,Northern Territory,242894
+2014,01/06/14,QLD,Queensland,4719653
+2014,01/06/14,SA,South Australia,1686945
+2014,01/06/14,TAS,Tasmania,513621
+2014,01/06/14,VIC,Victoria,5894917
+2014,01/06/14,WA,Western Australia,2517608
+2015,01/06/15,ACT,Australian Capital Territory,395813
+2015,01/06/15,NSW,New South Wales,7616168
+2015,01/06/15,NT,Northern Territory,244692
+2015,01/06/15,QLD,Queensland,4777692
+2015,01/06/15,SA,South Australia,1700668
+2015,01/06/15,TAS,Tasmania,515117
+2015,01/06/15,VIC,Victoria,6022322
+2015,01/06/15,WA,Western Australia,2540672
+2016,01/06/16,ACT,Australian Capital Territory,403104
+2016,01/06/16,NSW,New South Wales,7732858
+2016,01/06/16,NT,Northern Territory,245678
+2016,01/06/16,QLD,Queensland,4845152
+2016,01/06/16,SA,South Australia,1712843
+2016,01/06/16,TAS,Tasmania,517514
+2016,01/06/16,VIC,Victoria,6173172
+2016,01/06/16,WA,Western Australia,2555978
+2017,01/06/17,ACT,Australian Capital Territory,415046
+2017,01/06/17,NSW,New South Wales,7855316
+2017,01/06/17,NT,Northern Territory,247412
+2017,01/06/17,QLD,Queensland,4926380
+2017,01/06/17,SA,South Australia,1728673
+2017,01/06/17,TAS,Tasmania,526762
+2017,01/06/17,VIC,Victoria,6302608
+2017,01/06/17,WA,Western Australia,2585720
+2018,01/06/18,ACT,Australian Capital Territory,426081
+2018,01/06/18,NSW,New South Wales,7954476
+2018,01/06/18,NT,Northern Territory,247095
+2018,01/06/18,QLD,Queensland,5006623
+2018,01/06/18,SA,South Australia,1746137
+2018,01/06/18,TAS,Tasmania,537291
+2018,01/06/18,VIC,Victoria,6423038
+2018,01/06/18,WA,Western Australia,2617792
+2019,01/06/19,ACT,Australian Capital Territory,435730
+2019,01/06/19,NSW,New South Wales,8046748
+2019,01/06/19,NT,Northern Territory,246559
+2019,01/06/19,QLD,Queensland,5088847
+2019,01/06/19,SA,South Australia,1767395
+2019,01/06/19,TAS,Tasmania,547841
+2019,01/06/19,VIC,Victoria,6537305
+2019,01/06/19,WA,Western Australia,2659625
+2020,01/06/20,ACT,Australian Capital Territory,444903
+2020,01/06/20,NSW,New South Wales,8110610
+2020,01/06/20,NT,Northern Territory,247428
+2020,01/06/20,QLD,Queensland,5165613
+2020,01/06/20,SA,South Australia,1790355
+2020,01/06/20,TAS,Tasmania,557578
+2020,01/06/20,VIC,Victoria,6615046
+2020,01/06/20,WA,Western Australia,2712912
+2021,01/06/21,ACT,Australian Capital Territory,452508
+2021,01/06/21,NSW,New South Wales,8097062
+2021,01/06/21,NT,Northern Territory,248151
+2021,01/06/21,QLD,Queensland,5215814
+2021,01/06/21,SA,South Australia,1802601
+2021,01/06/21,TAS,Tasmania,567239
+2021,01/06/21,VIC,Victoria,6547822
+2021,01/06/21,WA,Western Australia,2749365
+2022,01/06/22,ACT,Australian Capital Territory,461262
+2022,01/06/22,NSW,New South Wales,8182098
+2022,01/06/22,NT,Northern Territory,253100
+2022,01/06/22,QLD,Queensland,5310905
+2022,01/06/22,SA,South Australia,1824969
+2022,01/06/22,TAS,Tasmania,572300
+2022,01/06/22,VIC,Victoria,6615232
+2022,01/06/22,WA,Western Australia,2793934
+2023,01/06/23,ACT,Australian Capital Territory,471340
+2023,01/06/23,NSW,New South Wales,8356387
+2023,01/06/23,NT,Northern Territory,257508
+2023,01/06/23,QLD,Queensland,5450235
+2023,01/06/23,SA,South Australia,1857646
+2023,01/06/23,TAS,Tasmania,573731
+2023,01/06/23,VIC,Victoria,6797169
+2023,01/06/23,WA,Western Australia,2890936
+2024,01/06/24,ACT,Australian Capital Territory,478430
+2024,01/06/24,NSW,New South Wales,8492050
+2024,01/06/24,NT,Northern Territory,260884
+2024,01/06/24,QLD,Queensland,5571890
+2024,01/06/24,SA,South Australia,1882164
+2024,01/06/24,TAS,Tasmania,574765
+2024,01/06/24,VIC,Victoria,6950961
+2024,01/06/24,WA,Western Australia,2978147
+2025,01/06/25,ACT,Australian Capital Territory,484792
+2025,01/06/25,NSW,New South Wales,8593871
+2025,01/06/25,NT,Northern Territory,264411
+2025,01/06/25,QLD,Queensland,5669834
+2025,01/06/25,SA,South Australia,1902331
+2025,01/06/25,TAS,Tasmania,575960
+2025,01/06/25,VIC,Victoria,7074468
+2025,01/06/25,WA,Western Australia,3043731
