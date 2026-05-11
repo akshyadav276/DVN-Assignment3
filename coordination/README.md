@@ -2,8 +2,6 @@
 
 ### DVN Assignment 3 — Road Deaths Are Not Random
 
-**Owner:** Akshita Yadav | **Last updated:** 9 May 2026
-
 ---
 
 ## What this folder is
