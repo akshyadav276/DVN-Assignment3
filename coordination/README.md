@@ -8,7 +8,7 @@
 
 ## What this folder is
 
-This is the coordination track for DVN Assignment 3. It contains the sprint plan, task ownership records, meeting log, checklists, and risk register for the group. It exists to show observable effort and organised project management — tutors reviewing contribution evidence will find Akshita's work here.
+This is the coordination track for DVN Assignment 3. 
 
 ---
 
