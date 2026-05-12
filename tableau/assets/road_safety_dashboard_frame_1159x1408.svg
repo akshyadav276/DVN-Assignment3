@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1159" height="1408" viewBox="0 0 1159 1408" role="img" aria-labelledby="title desc">
+  <title id="title">Road safety dashboard visual frame</title>
+  <desc id="desc">A subtle 1159 by 1408 dashboard frame with a blue and orange road-safety accent motif for Tableau dashboards.</desc>
+
+  <defs>
+    <linearGradient id="topAccent" x1="0" y1="0" x2="1159" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0072B2"/>
+      <stop offset="0.52" stop-color="#0072B2"/>
+      <stop offset="0.52" stop-color="#E69F00"/>
+      <stop offset="1" stop-color="#E69F00"/>
+    </linearGradient>
+
+    <linearGradient id="softRoad" x1="744" y1="1198" x2="1166" y2="1392" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0072B2" stop-opacity="0.11"/>
+      <stop offset="0.56" stop-color="#0072B2" stop-opacity="0.045"/>
+      <stop offset="1" stop-color="#E69F00" stop-opacity="0.09"/>
+    </linearGradient>
+
+    <pattern id="microGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#D9DEE3" stroke-width="1" opacity="0.24"/>
+    </pattern>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#0E2433" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1159" height="1408" fill="#FAFBFC"/>
+  <rect width="1159" height="1408" fill="url(#microGrid)" opacity="0.45"/>
+
+  <rect x="24" y="24" width="1111" height="1360" rx="18" fill="#FFFFFF" stroke="#D9DEE3" stroke-width="1.5" filter="url(#softShadow)"/>
+  <rect x="24" y="24" width="1111" height="8" rx="4" fill="url(#topAccent)"/>
+
+  <g opacity="0.95">
+    <circle cx="46" cy="58" r="7" fill="#0072B2"/>
+    <circle cx="66" cy="58" r="7" fill="#E69F00"/>
+    <circle cx="86" cy="58" r="7" fill="#A7ADB1"/>
+  </g>
+
+  <g opacity="0.55">
+    <path d="M1004 44C1048 92 1086 137 1101 192C1118 254 1099 317 1059 365C1021 411 965 446 934 497C898 557 905 627 949 682C981 730 1035 762 1062 815C1096 883 1064 956 1006 1003C941 1057 850 1068 798 1135C746 1202 774 1297 844 1349" fill="none" stroke="#E69F00" stroke-width="22" stroke-linecap="round" opacity="0.08"/>
+    <path d="M1042 44C1080 94 1111 143 1120 199C1130 261 1104 321 1058 363C1017 401 961 430 928 476C888 531 887 600 925 659C959 712 1016 746 1045 802C1080 870 1049 945 990 992C924 1046 834 1060 783 1127C734 1193 760 1286 827 1349" fill="none" stroke="#0072B2" stroke-width="3" stroke-linecap="round" stroke-dasharray="14 18" opacity="0.18"/>
+  </g>
+
+  <g transform="translate(835 1190)" opacity="0.9">
+    <path d="M0 142C39 72 82 30 131 15C181 0 232 13 292 50" fill="none" stroke="url(#softRoad)" stroke-width="104" stroke-linecap="round"/>
+    <path d="M0 142C39 72 82 30 131 15C181 0 232 13 292 50" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-dasharray="20 18" opacity="0.76"/>
+  </g>
+
+  <g opacity="0.42" stroke-linecap="round">
+    <path d="M66 1320H274" stroke="#0072B2" stroke-width="3"/>
+    <path d="M66 1338H198" stroke="#E69F00" stroke-width="3"/>
+    <path d="M66 1356H318" stroke="#A7ADB1" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(78 1220)" opacity="0.11" fill="none" stroke="#0072B2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 84C15 45 47 13 86 13C125 13 157 45 157 84C157 123 125 155 86 155C47 155 15 123 15 84Z"/>
+    <path d="M86 36V84L119 105"/>
+    <path d="M43 155L25 188"/>
+    <path d="M129 155L147 188"/>
+  </g>
+</svg>

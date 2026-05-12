@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1159" height="1408" viewBox="0 0 1159 1408" role="img" aria-labelledby="title desc">
+  <title id="title">Subtle road safety dashboard accent</title>
+  <desc id="desc">A transparent 1159 by 1408 Tableau dashboard accent with faint blue and orange road-safety curves and a light border.</desc>
+
+  <defs>
+    <linearGradient id="roadAccent" x1="820" y1="50" x2="1160" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E69F00" stop-opacity="0.10"/>
+      <stop offset="0.55" stop-color="#E69F00" stop-opacity="0.045"/>
+      <stop offset="1" stop-color="#0072B2" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <linearGradient id="bottomAccent" x1="860" y1="1160" x2="1160" y2="1390" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0072B2" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#E69F00" stop-opacity="0.09"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent background: lets Tableau charts remain fully visible. -->
+  <rect x="8" y="8" width="1143" height="1392" rx="10" fill="none" stroke="#DDE4EA" stroke-width="1.4" opacity="0.75"/>
+  <rect x="8" y="8" width="1143" height="1392" rx="10" fill="none" stroke="#0072B2" stroke-width="2.2" opacity="0.10"/>
+
+  <!-- Very light top-right road motif, placed away from the dashboard title area. -->
+  <g opacity="0.85">
+    <path d="M1010 78C1045 120 1072 158 1074 206C1076 257 1042 295 1003 326"
+          fill="none" stroke="url(#roadAccent)" stroke-width="46" stroke-linecap="round"/>
+    <path d="M1034 72C1067 119 1090 159 1089 207C1088 258 1057 300 1017 331"
+          fill="none" stroke="#0072B2" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="11 17" opacity="0.16"/>
+  </g>
+
+  <!-- Bottom-right accent: sits in unused dashboard whitespace and stays out of the charts. -->
+  <g opacity="0.78">
+    <path d="M925 1220C968 1250 1008 1286 1032 1349"
+          fill="none" stroke="url(#bottomAccent)" stroke-width="52" stroke-linecap="round"/>
+    <path d="M944 1208C988 1242 1023 1284 1048 1348"
+          fill="none" stroke="#0072B2" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="12 16" opacity="0.14"/>
+  </g>
+
+  <!-- Small corner marks for a designed frame, intentionally quiet. -->
+  <g fill="none" stroke-linecap="round" opacity="0.46">
+    <path d="M32 38H118" stroke="#0072B2" stroke-width="3"/>
+    <path d="M32 54H82" stroke="#E69F00" stroke-width="3"/>
+    <path d="M1042 1360H1126" stroke="#0072B2" stroke-width="3"/>
+    <path d="M1080 1344H1126" stroke="#E69F00" stroke-width="3"/>
+  </g>
+</svg>

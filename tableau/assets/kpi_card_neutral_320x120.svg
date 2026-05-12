@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="120" viewBox="0 0 320 120" role="img" aria-labelledby="title desc">
+  <title id="title">Neutral rounded KPI card</title>
+  <desc id="desc">A white rounded KPI card background with a light grey border for Tableau dashboards.</desc>
+  <rect x="1.5" y="1.5" width="317" height="117" rx="14" fill="#FFFFFF" stroke="#D9DEE3" stroke-width="3"/>
+  <rect x="2.5" y="2.5" width="315" height="115" rx="13" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.7"/>
+</svg>

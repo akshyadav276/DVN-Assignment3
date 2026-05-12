@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1159" height="1408" viewBox="0 0 1159 1408" role="img" aria-labelledby="title desc">
+  <title id="title">Road safety dashboard frame with top accent</title>
+  <desc id="desc">A 1159 by 1408 Tableau dashboard frame with the blue and orange accent line and three marker dots placed at the very top.</desc>
+
+  <defs>
+    <linearGradient id="topAccent" x1="0" y1="0" x2="1159" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0072B2"/>
+      <stop offset="0.52" stop-color="#0072B2"/>
+      <stop offset="0.52" stop-color="#E69F00"/>
+      <stop offset="1" stop-color="#E69F00"/>
+    </linearGradient>
+
+    <linearGradient id="softRoad" x1="744" y1="1198" x2="1166" y2="1392" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0072B2" stop-opacity="0.10"/>
+      <stop offset="0.56" stop-color="#0072B2" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#E69F00" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <pattern id="microGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#D9DEE3" stroke-width="1" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1159" height="1408" fill="#FAFBFC"/>
+  <rect width="1159" height="1408" fill="url(#microGrid)" opacity="0.28"/>
+
+  <!-- Larger frame: closer to the edge than the first version. -->
+  <rect x="6" y="6" width="1147" height="1396" rx="12" fill="#FFFFFF" stroke="#D9DEE3" stroke-width="1.4"/>
+  <rect x="6" y="6" width="1147" height="1396" rx="12" fill="none" stroke="#0072B2" stroke-width="2.2" opacity="0.22"/>
+
+  <!-- Top-most accent line. Kept above dashboard title space. -->
+  <rect x="6" y="6" width="1147" height="8" rx="4" fill="url(#topAccent)"/>
+
+  <!-- Three dots moved to the top-most left corner. -->
+  <g opacity="0.95">
+    <circle cx="34" cy="30" r="7" fill="#0072B2"/>
+    <circle cx="54" cy="30" r="7" fill="#E69F00"/>
+    <circle cx="74" cy="30" r="7" fill="#A7ADB1"/>
+  </g>
+
+  <!-- Light road motif retained from the older version, shifted away from main title. -->
+  <g opacity="0.48">
+    <path d="M1004 64C1048 112 1086 157 1101 212C1118 274 1099 337 1059 385C1021 431 965 466 934 517C898 577 905 647 949 702C981 750 1035 782 1062 835C1096 903 1064 976 1006 1023C941 1077 850 1088 798 1155C746 1222 774 1317 844 1369" fill="none" stroke="#E69F00" stroke-width="22" stroke-linecap="round" opacity="0.075"/>
+    <path d="M1042 64C1080 114 1111 163 1120 219C1130 281 1104 341 1058 383C1017 421 961 450 928 496C888 551 887 620 925 679C959 732 1016 766 1045 822C1080 890 1049 965 990 1012C924 1066 834 1080 783 1147C734 1213 760 1306 827 1369" fill="none" stroke="#0072B2" stroke-width="3" stroke-linecap="round" stroke-dasharray="14 18" opacity="0.16"/>
+  </g>
+
+  <g opacity="0.36" stroke-linecap="round">
+    <path d="M54 1330H262" stroke="#0072B2" stroke-width="3"/>
+    <path d="M54 1348H186" stroke="#E69F00" stroke-width="3"/>
+    <path d="M54 1366H306" stroke="#A7ADB1" stroke-width="3"/>
+  </g>
+</svg>
