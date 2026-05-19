@@ -1,33 +1,33 @@
-# 🚗 The Everyday Fatality Pattern
-### Where Australia Should Target Road Safety Funding First
+The Everyday Fatality Pattern
+Where Australia Should Target Road Safety Funding First
 
-**DVN Studio — Group 18 | 36104 Data Visualisation and Narratives | Assessment 3 Part 2**
+DVN — Group 18 | 36104 Data Visualisation and Narratives | Insight Lane
 
 ---
 
-## 📌 Overview
+Overview
 
 This repository contains the Part 2 pitch deck and supporting materials for our data visualisation project on Australian road safety fatalities.
 
-We analysed **2,714 fatalities** recorded between 2024 and January 2026 across the Australian Road Deaths Database, enriched with ABS population data and Open-Meteo weather context, to answer one funding question:
+We analysed 2,714 fatalities recorded between 2024 and January 2026 across the Australian Road Deaths Database, enriched with ABS population data and Open-Meteo weather context, to answer one funding question:
 
-> *"Which road safety theatres should receive priority funding to reduce fatalities fastest and most fairly?"*
+> "Which road safety theatres should receive priority funding to reduce fatalities fastest and most fairly?"
 
 ---
 
-## 🎯 Target Audience
+Target Audience
 
-**Stakeholder Hat:** National Road Safety Funding Committee
+Stakeholder Hat: National Road Safety Funding Committee
 
 Our stakeholder is a national road safety funding committee advising the Federal Transport Minister. They need to decide where limited road safety funding should be targeted first.
 
-**Secondary stakeholders:** State transport agencies and road safety decision-makers across Australian jurisdictions.
+Secondary stakeholders: State transport agencies and road safety decision-makers across Australian jurisdictions.
 
 ---
 
-## 📖 Narrative Arc
+Narrative Arc
 
-We follow the **Sparkline narrative arc** — the story of the gap between where Australia currently sits on road fatalities and where it needs to be, framed around a funding decision.
+We follow the Sparkline narrative arc — the story of the gap between where Australia currently sits on road fatalities and where it needs to be, framed around a funding decision.
 
 ```
 THE SCALE          →    THE CONCENTRATION      →    THE OPPORTUNITY      →    THE ASK
@@ -37,23 +37,9 @@ THE SCALE          →    THE CONCENTRATION      →    THE OPPORTUNITY      →
 
 ---
 
-## 📁 Repository Structure
+Live Dashboard
 
-```
-/
-├── slides/
-│   └── RoadSafety_Pitch_FINAL.pptx    # Final 9-slide pitch deck
-├── screenshots/                        # Dashboard screenshots
-├── README.md                           # This file
-├── pitch_outline.md                    # Slide-by-slide narrative breakdown
-└── speaker_script_pal.md              # Full presenter script with Q&A prep
-```
-
----
-
-## 🖥 Live Dashboard
-
-> 📎 **Tableau Public:** https://public.tableau.com/app/profile/shameel.zeshan.khader.sheriff/viz/DVNAT3_17785102792850/Dashboard1
+Tableau Public: https://public.tableau.com/app/profile/shameel.zeshan.khader.sheriff/viz/DVNAT3_17785102792850/Dashboard1
 
 The interactive dashboard supports:
 - State and year filtering with dynamic KPI updates
@@ -62,7 +48,7 @@ The interactive dashboard supports:
 
 ---
 
-## 📊 Data Sources
+Data Sources
 
 | Dataset | Source | Scope | Role |
 |---------|--------|-------|------|
@@ -72,7 +58,7 @@ The interactive dashboard supports:
 
 ---
 
-## 🔑 Key Findings
+Key Findings
 
 | Finding | Data Point |
 |---------|-----------|
@@ -87,7 +73,7 @@ The interactive dashboard supports:
 
 ---
 
-## 🗺 Intervention Theatres
+Intervention Theatres
 
 The dashboard identifies three road environments, each requiring a different intervention strategy:
 
@@ -99,7 +85,7 @@ The dashboard identifies three road environments, each requiring a different int
 
 ---
 
-## ⚙️ Advanced Dashboard Features
+Advanced Dashboard Features
 
 | Feature | Description |
 |---------|-------------|
@@ -109,7 +95,7 @@ The dashboard identifies three road environments, each requiring a different int
 
 ---
 
-## 📢 Call to Action
+Call to Action
 
 Three evidence-based recommendations for the National Road Safety Funding Committee:
 
@@ -124,7 +110,7 @@ The dashboard is already built and live on Tableau Public. Commission it as an o
 
 ---
 
-## 👥 Team — DVN Studio Group 18
+Team — DVN Group 18
 
 | Name | Role | Responsibilities |
 |------|------|-----------------|
@@ -138,7 +124,7 @@ The dashboard is already built and live on Tableau Public. Commission it as an o
 
 ---
 
-## 📅 Assessment Timeline
+Assessment Timeline
 
 | Part | Deliverable | Status |
 |------|------------|--------|
@@ -148,7 +134,7 @@ The dashboard is already built and live on Tableau Public. Commission it as an o
 
 ---
 
-## 📝 Data Dictionary
+Data Dictionary
 
 | Variable | Type | Source | Description |
 |----------|------|--------|-------------|
@@ -163,7 +149,7 @@ The dashboard is already built and live on Tableau Public. Commission it as an o
 
 ---
 
-## ⚠️ Methodology Notes
+Methodology Notes
 
 - Weather data is used as **state-month context only** — it is not attributed to individual crash causation
 - Population-adjusted rates use ABS 2024 projections applied to ARDD state-level counts
