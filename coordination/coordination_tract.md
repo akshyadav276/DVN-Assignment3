@@ -23,7 +23,7 @@
 |---|---|---|---|
 | Part 1 | Individual proposals submitted | Sun 19 Apr 2026 | ✅ Complete |
 | Part 2 | Live pitch + slides | Wed 13 May 2026 | ✅ Submitted |
-| Part 3 | Final portfolio | Sun 17 May 2026 | ✅ Submitted |
+| Part 3 | Final portfolio | Fri 22 May 2026 | ✅ in progress |
 
 ---
 
