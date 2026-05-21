@@ -1,42 +1,42 @@
-# 🎤 Speaker Script — Pal Patel (Orator)
-**Presentation: The Everyday Fatality Pattern — Where Australia Should Target Road Safety Funding First**
-**Role:** Orator | **Date:** 13 May 2026 | **Duration:** 5 min + 1.5 min Q&A
-**Stakeholder Hat:** National Road Safety Funding Committee & Federal Transport Minister
+Speaker Script — Pal Patel (Orator)
+Presentation: The Everyday Fatality Pattern — Where Australia Should Target Road Safety Funding First**
+Role: Orator | Date: 13 May 2026 | Duration: 5 min + 1.5 min Q&A
+Stakeholder Hat: National Road Safety Funding Committee & Federal Transport Minister
 
 ---
 
-## ⏱ Timing Overview
+Timing Overview
 
 | Slide | Section | Time |
 |-------|---------|------|
 | 1 | Title — Set stakeholder hat | 0:00–0:20 |
-| 2 | About the Data — Three sources, one story | 0:20–0:50 |
-| 3 | The Scale — National trend warning | 0:50–1:20 |
-| 4 | The Where — State risk + intervention theatres | 1:20–2:00 |
-| 5 | The Concentration — Two priority theatres | 2:00–2:30 |
-| 6 | The Pattern — Human layer + timing heatmap | 2:30–3:10 |
-| 7 | The Opportunity — What-if funding tool | 3:10–3:45 |
-| 8 | The Ask — Three recommendations | 3:45–4:40 |
-| 9 | Closing — Thank You / Questions | 4:40–5:00 |
-| — | Q&A | 5:00–6:30 |
+| 2 | About the Data — Three sources, one story | 0:20–0:40 |
+| 3 | The Scale — National trend warning | 0:40–1:00 |
+| 4 | The Where — State risk + intervention theatres | 1:00–1:30 |
+| 5 | The Concentration — Two priority theatres | 1:30–2:00 |
+| 6 | The Pattern — Human layer + timing heatmap | 2:00–2:10 |
+| 7 | The Opportunity — What-if funding tool | 2:10–2:45 |
+| 8 | The Ask — Three recommendations | 2:45–3:40 |
+| 9 | Closing — Thank You / Questions | 3:40–4:00 |
+| — | Q&A | 4:00–5:00 |
 
 ---
 
-## 📋 Full Script
+Full Script
 
 ---
 
-### SLIDE 1 — Title *(0:00–0:20)*
+SLIDE 1 — Title *(0:00–0:20)*
 
 > "Our stakeholder today is a national road safety funding committee advising the Federal Transport Minister. Their decision question is this: which road safety theatres should receive priority funding to reduce fatalities fastest and most fairly?
 >
 > That is exactly what our data answers."
 
-*🗒 Speaker note: Make direct eye contact. State the stakeholder hat clearly and confidently — the cohort needs to put that hat on before anything else.*
+Speaker note: Make direct eye contact. State the stakeholder hat clearly and confidently — the cohort needs to put that hat on before anything else.*
 
 ---
 
-### SLIDE 2 — About the Data *(0:20–0:50)*
+SLIDE 2 — About the Data *(0:20–0:40)*
 
 > "Now that you know who we're speaking to, let me briefly show you what data we used — because the credibility of every number you're about to see depends on it.
 >
@@ -46,11 +46,11 @@
 >
 > One important note: weather is used as state-month context only. We are not attributing individual crashes to weather conditions."
 
-*🗒 Speaker note: Keep this crisp — it's a credibility slide not a data lecture. The key phrase to land is "per-capita rates rather than raw counts" — that sets up the fairness argument on the next slide.*
+Speaker note: Keep this crisp — it's a credibility slide not a data lecture. The key phrase to land is "per-capita rates rather than raw counts" — that sets up the fairness argument on the next slide.*
 
 ---
 
-### SLIDE 3 — The Scale *(0:50–1:20)*
+### SLIDE 3 — The Scale *(0:40–1:00)*
 
 > "Now I'll take you into the story the data is telling us. And the story is not just that road deaths happen. The story is that recent fatalities are concentrating in specific road environments — which means funding can be targeted much more intelligently.
 >
@@ -62,11 +62,11 @@
 >
 > The message is: the national trend alone is not enough anymore. We need to identify where deaths are now concentrating, so funding can be targeted instead of generic."
 
-*🗒 Speaker note: Point to the uptick at the right end of the trend line. The phrase "targeted instead of generic" is your transition into the next slide.*
+Speaker note: Point to the uptick at the right end of the trend line. The phrase "targeted instead of generic" is your transition into the next slide.*
 
 ---
 
-### SLIDE 4 — The Where *(1:20–2:00)*
+SLIDE 4 — The Where *(1:00–1:30)*
 
 > "So where are deaths concentrating?
 >
@@ -80,11 +80,11 @@
 >
 > The message: funding should not be based only on raw counts. We need a fairness lens for state risk, and a focus lens for where intervention can affect the most deaths."
 
-*🗒 Speaker note: The intervention theatre definition is important — say it clearly. This is the analytical decision that justifies everything downstream.*
+Speaker note: The intervention theatre definition is important — say it clearly. This is the analytical decision that justifies everything downstream.*
 
 ---
 
-### SLIDE 5 — The Concentration *(2:00–2:30)*
+### SLIDE 5 — The Concentration *(1:30–2:00)*
 
 > "Regional high-speed roads account for 1,065 deaths. Major-city urban streets account for 857 deaths. Together, these two theatres explain 70.8% of recent fatalities.
 >
@@ -92,11 +92,11 @@
 >
 > And critically — different environments require different intervention strategies. Which brings us to the human layer."
 
-*🗒 Speaker note: Let 70.8% land — pause on it. "Two identifiable, targetable environments" is your key phrase before transitioning.*
+Speaker note: Let 70.8% land — pause on it. "Two identifiable, targetable environments" is your key phrase before transitioning.*
 
 ---
 
-### SLIDE 6 — The Pattern *(2:30–3:10)*
+### SLIDE 6 — The Pattern *(2:00–2:10)*
 
 > "Now that we know the two priority theatres, we need to ask: who is being harmed in each environment?
 >
@@ -110,11 +110,11 @@
 >
 > The takeaway: different road environments harm different people — and the timing pattern is everyday travel."
 
-*🗒 Speaker note: "Everyday travel" is the myth-buster moment. Give it emphasis — the audience expects late-night to be the answer.*
+Speaker note: "Everyday travel" is the myth-buster moment. Give it emphasis — the audience expects late-night to be the answer.*
 
 ---
 
-### SLIDE 7 — The Opportunity *(3:10–3:45)*
+### SLIDE 7 — The Opportunity *(2:10–2:45)*
 
 > "The final story turns our analysis into a funding decision tool.
 >
@@ -128,11 +128,11 @@
 >
 > The key message: small improvements in the highest-priority environments translate into measurable human impact."
 
-*🗒 Speaker note: This is the intellectual peak — slow down. "Measurable human impact" is your bridge into the call to action.*
+Speaker note: This is the intellectual peak — slow down. "Measurable human impact" is your bridge into the call to action.*
 
 ---
 
-### SLIDE 8 — The Ask *(3:45–4:40)*
+### SLIDE 8 — The Ask *(2:45–3:40)*
 
 > "The dashboard gives us the evidence. The final step is the decision.
 >
@@ -146,21 +146,21 @@
 >
 > The evidence is already visible. The remaining question is whether action follows."
 
-*🗒 Speaker note: Slow down on each numbered action. The closing line "whether action follows" is your handover to the Thank You slide — pause before clicking.*
+Speaker note: Slow down on each numbered action. The closing line "whether action follows" is your handover to the Thank You slide — pause before clicking.*
 
 ---
 
-### SLIDE 9 — Closing *(4:40–5:00)*
+### SLIDE 9 — Closing *(3:40–4:00)*
 
 > "Road fatalities are no longer a mystery problem. The data now shows exactly where intervention saves the most lives.
 >
 > Thank you."
 
-*🗒 Speaker note: Say it quietly and clearly. Hold eye contact. Do not rush into Q&A — let the silence settle first.*
+Speaker note: Say it quietly and clearly. Hold eye contact. Do not rush into Q&A — let the silence settle first.*
 
 ---
 
-## ⚠️ Key Limitations to Know for Q&A
+Key Limitations to Know for Q&A
 
 - The dashboard is designed for **funding prioritisation, not causal proof**
 - It shows where fatalities concentrate and what targeted reductions could mean — it does not prove that one factor alone causes deaths
@@ -170,7 +170,7 @@
 
 ---
 
-## ❓ Q&A Preparation — Quick Reference
+Q&A Preparation — Quick Reference
 
 | Question | Key Answer |
 |----------|-----------|
@@ -184,5 +184,5 @@
 
 ---
 
-*Script prepared by Pal Patel — Orator, DVN Studio Group 18*
+*Script prepared by Pal Patel — Orator, DVN Group 18*
 *Assessment 3 Part 2 | 36104 Data Visualisation and Narratives | May 2026*
