@@ -1,4 +1,4 @@
-# 📊 Pitch Outline — The Everyday Fatality Pattern
+# Pitch Outline — The Everyday Fatality Pattern
 **DVN Studio — Group 18 | Assessment 3 Part 2 | 13 May 2026**
 
 ---
@@ -182,4 +182,4 @@ Every visual answers one part of the funding committee's decision question.
 
 ---
 
-*DVN Studio — Group 18 | 36104 Data Visualisation and Narratives | University of Technology Sydney | May 2026*
+*DVN — Group 18 | 36104 Data Visualisation and Narratives | University of Technology Sydney | May 2026*
