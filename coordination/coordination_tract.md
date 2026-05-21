@@ -66,12 +66,12 @@
 | User persona and stories | Pal | `docs/user_persona_and_stories.md` | ✅ Done |
 | Pitch narrative arc | Pal | `presentation/pitch_outline.md` | ✅ Done |
 | Pitch slides | Pal | `presentation/slides/` | ✅ Done |
-| Speaker script | Pal | `presentation/speaker_script_pal.md` | ✅ Done |
-| Group rehearsal | All | — | ✅ Done |
+| Speaker script | Akshita, Shameel | `presentation/speaker_script_pal.md` | ✅ Done |
+| Group rehearsal | Akshita, Shameel | — | ✅ Done |
 | Slides submitted by midday | Akshita | Submission portal | ✅ Done |
-| Live pitch delivered | Pal (Orator) | — | ✅ Done |
+| Live pitch delivered | Akshita, Shameel | — | ✅ Done |
 
-### Sprint 3 — Final Portfolio *(target: complete by 17 May)*
+### Sprint 3 — Final Portfolio *(target: complete by 23 May)*
 
 | Task | Owner | Output | Status |
 |---|---|---|---|
@@ -123,7 +123,7 @@
 
 ## Portfolio Submission Checklist
 
-*Owner: Akshita Yadav | Completed by 17 May*
+*Owner: Akshita Yadav | Completed by 23 May*
 
 ### Repository Files
 
@@ -199,7 +199,7 @@
 **Action items agreed:**
 - Pal: slides to be finalised and sent to group by morning of 11 May ✅
 - Shameel: confirm dashboard deployed to Tableau Public before 13 May ✅
-- Akshita: submit slides by midday 13 May ✅
+- Akshita: submit slides  ✅
 
 ---
 
