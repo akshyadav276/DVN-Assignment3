@@ -75,7 +75,7 @@
 
 | Task | Owner | Output | Status |
 |---|---|---|---|
-| Dashboard story doc | Sonika / Akshita | `docs/dashboard_story.md` | ✅ Done |
+| Dashboard story doc | Sonika | `docs/dashboard_story.md` | ✅ Done |
 | Methodology doc | Sonika | `docs/methodology.md` | ✅ Done |
 | Limitations doc | Sonika | `docs/limitations.md` | ✅ Done |
 | Visual design principles | Sonika | `docs/visual_design_principles.md` | ✅ Done |
