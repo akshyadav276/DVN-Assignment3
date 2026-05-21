@@ -85,6 +85,7 @@ Data Preperation/
   03_integration/
   04_eda/
   05_tableau_inputs/
+coordination/
 data/
   raw/
   cleaned/
