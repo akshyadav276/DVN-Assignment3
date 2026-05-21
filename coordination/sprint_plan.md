@@ -8,7 +8,7 @@
 | 9-10 May | Tableau dashboard build | Working one-page dashboard |
 | 11-12 May | Pitch deck and rehearsal | 5-minute group pitch |
 | 13 May | Part 2 presentation | Submitted slides and live pitch |
-| 17 May | Final portfolio | Dashboard, video, README, data dictionary |
+| 23 May | Final portfolio | Dashboard, video, README, data dictionary |
 
 ## Responsibility Check
 
