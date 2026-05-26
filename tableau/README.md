@@ -18,7 +18,7 @@ Workbook file: `DVN AT3 Final.twbx`
 
 **Primary persona:** Federal Transport Minister reviewing national road safety funding priorities.
 
-The dashboard uses Australia-wide fatality data so the stakeholder can identify national intervention theatres and compare funding priorities fairly across states and road environments. The decision need is not to inspect every crash record, but to answer:
+The dashboard uses Australia-wide fatality data so the stakeholder can identify national intervention theatres and compare funding priorities fairly across states and road environments. The decision need is not to inspect every fatality record, but to answer:
 
 > Where should limited road-safety funding be prioritised first, and what type of intervention should follow?
 

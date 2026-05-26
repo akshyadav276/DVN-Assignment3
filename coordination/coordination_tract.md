@@ -23,7 +23,7 @@
 |---|---|---|---|
 | Part 1 | Individual proposals submitted | Sun 19 Apr 2026 | ✅ Complete |
 | Part 2 | Live pitch + slides | Wed 13 May 2026 | ✅ Submitted |
-| Part 3 | Final portfolio | Fri 22 May 2026 | ✅ in progress |
+| Part 3 | Final portfolio | Tue 26 May 2026 | ✅ in progress |
 
 ---
 
@@ -32,9 +32,9 @@
 | Role | Owner | Evidence Location |
 |---|---|---|
 | Architect | Sonika Nanjundaiah | Root `README.md`, GitHub commit history, project structure |
-| Data Preprocessor | Remith Sajin | `Data Preperation/02_cleaning/`, `data_dictionary.csv` |
-| Data Analyst | Karthik Ramesh | `Data Preperation/04_eda/` |
-| Integration Analyst | Muhammad Asif | `Data Preperation/03_integration/` |
+| Data Preprocessor | Remith Sajin | `Data Preperation/01_Data_cleaning/`, `data_dictionary.csv` |
+| Data Analyst | Karthik Ramesh | `Data Preperation/03_eda/` |
+| Integration Analyst | Muhammad Asif | `Data Preperation/02_integration/` |
 | Dashboard Developer | Shameel Zeshan | `tableau/`, Tableau Public deployment |
 | Orator | Pal Patel | `presentation/`, pitch slides, speaker script |
 | Coordinator | Akshita Yadav | `coordination/` — this document |
@@ -47,13 +47,13 @@
 
 | Task | Owner | Output | Status |
 |---|---|---|---|
-| Raw BITRE data audit | Remith | `01_raw_audit/` notes | ✅ Done |
+| Raw BITRE data audit | Remith | `Data Preperation/01_Data_cleaning/` notes | ✅ Done |
 | BITRE cleaning and standardisation | Remith | `bitre_clean_detail.csv` | ✅ Done |
 | Population data cleaning | Remith | `population_state_year_clean.csv` | ✅ Done |
 | Weather data cleaning | Remith | `weather_monthly_state_clean_2024_jan2026.csv` | ✅ Done |
 | Data dictionary | Remith | `docs/data_dictionary.csv`, `docs/data_dictionary.md` | ✅ Done |
-| EDA notebook | Karthik | `Data Preperation/04_eda/` | ✅ Done |
-| Dataset integration | Asif | `Data Preperation/03_integration/` | ✅ Done |
+| EDA notebook | Karthik | `Data Preperation/03_eda/` | ✅ Done |
+| Dataset integration | Asif | `Data Preperation/02_integration/` | ✅ Done |
 | GitHub repo structure | Sonika | Root `README.md`, folder structure | ✅ Done |
 
 ### Sprint 2 — Dashboard Build and Pitch Preparation *(target: complete by 13 May)*
@@ -71,7 +71,7 @@
 | Slides submitted by midday | Akshita | Submission portal | ✅ Done |
 | Live pitch delivered | Akshita, Shameel | — | ✅ Done |
 
-### Sprint 3 — Final Portfolio *(target: complete by 23 May)*
+### Sprint 3 — Final Portfolio *(target: complete by 26 May)*
 
 | Task | Owner | Output | Status |
 |---|---|---|---|
@@ -94,8 +94,8 @@
 |---|---|---|
 | Dashboard deployed to Tableau Public | URL accessible without login | ✅ |
 | All four datasets connected correctly | BITRE detail, state-month, population, weather | ✅ |
-| State filter updates all charts | All KPIs and visuals respond to state selection | ✅ |
-| Year filter updates all charts | All KPIs and visuals respond to year selection | ✅ |
+| Intervention theatre selector updates scenario estimate | Selected theatres update potential lives saved | ✅ |
+| Target reduction parameter updates scenario estimate | Changing target % updates potential lives saved | ✅ |
 | Population-adjusted rates correct | Fatalities per 100,000 calculation verified | ✅ |
 | What-if parameter functional | Theatre + reduction % → lives saved updates live | ✅ |
 | Tooltips present on key charts | State risk, timing heatmap, human layer | ✅ |
@@ -123,16 +123,16 @@
 
 ## Portfolio Submission Checklist
 
-*Owner: Akshita Yadav | Completed by 23 May*
+*Owner: Akshita Yadav | Completed by 26 May*
 
 ### Repository Files
 
 | File / Folder | Owner | Status |
 |---|---|---|
 | `README.md` (root) | Sonika | ✅ |
-| `Data Preperation/02_cleaning/` — cleaning notebook | Remith | ✅ |
-| `Data Preperation/03_integration/` — integration notebook | Asif | ✅ |
-| `Data Preperation/04_eda/` — EDA notebook | Karthik | ✅ |
+| `Data Preperation/01_Data_cleaning/` — cleaning notebook | Remith | ✅ |
+| `Data Preperation/02_integration/` — integration notebook | Asif | ✅ |
+| `Data Preperation/03_eda/` — EDA notebook | Karthik | ✅ |
 | `docs/data_dictionary.csv` | Remith | ✅ |
 | `docs/data_dictionary.md` | Remith | ✅ |
 | `docs/credits.md` | Team | ✅ |
@@ -144,7 +144,6 @@
 | `presentation/pitch_outline.md` | Pal | ✅ |
 | `presentation/speaker_script_pal.md` | Pal | ✅ |
 | `tableau/` — assets and screenshots | Shameel | ✅ |
-| `coordination/README.md` | Akshita | ✅ |
 | `coordination/coordination_tract.md` (this file) | Akshita | ✅ |
 | `coordination/meeting_notes.md` | Akshita | ✅ |
 | `coordination/sprint_plan.md` | Akshita | ✅ |
@@ -154,9 +153,9 @@
 | Team Member | Role | Evidence Location |
 |---|---|---|
 | Sonika Nanjundaiah | Architect | Root README, GitHub commit history, `docs/` structure |
-| Remith Sajin | Data Preprocessor | `Data Preperation/02_cleaning/`, `docs/data_dictionary.csv` |
-| Karthik Ramesh | Data Analyst | `Data Preperation/04_eda/` |
-| Muhammad Asif | Integration Analyst | `Data Preperation/03_integration/` |
+| Remith Sajin | Data Preprocessor | `Data Preperation/01_Data_cleaning/`, `docs/data_dictionary.csv` |
+| Karthik Ramesh | Data Analyst | `Data Preperation/03_eda/` |
+| Muhammad Asif | Integration Analyst | `Data Preperation/02_integration/` |
 | Shameel Zeshan | Dashboard Developer | `tableau/`, Tableau Public URL |
 | Pal Patel | Orator | `presentation/` — outline, slides, speaker script |
 | Akshita Yadav | Coordinator | `coordination/` — this document, meeting notes, sprint plan |
@@ -220,11 +219,11 @@
 | File | Path | Owner |
 |---|---|---|
 | Root README | `README.md` | Sonika |
-| BITRE cleaned detail | `Data Preperation/02_cleaning/bitre_clean_detail.csv` | Remith |
+| BITRE cleaned detail | `data/cleaned/bitre_clean_detail.csv` | Remith |
 | Data dictionary (CSV) | `docs/data_dictionary.csv` | Remith |
 | Data dictionary (MD) | `docs/data_dictionary.md` | Remith |
-| EDA notebook | `Data Preperation/04_eda/` | Karthik |
-| Integration notebook | `Data Preperation/03_integration/` | Asif |
+| EDA notebook | `Data Preperation/03_eda/` | Karthik |
+| Integration notebook | `Data Preperation/02_integration/` | Asif |
 | Dashboard assets | `tableau/assets/` | Shameel |
 | Pitch outline | `presentation/pitch_outline.md` | Pal |
 | Speaker script | `presentation/speaker_script_pal.md` | Pal |

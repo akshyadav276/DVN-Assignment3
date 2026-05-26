@@ -210,8 +210,8 @@ DVN-Assignment3/
 |   |   |-- bitre_state_month.csv               # State-month fatality aggregation
 |   |   |-- population_state_year_clean.csv     # Cleaned ABS population data
 |   |   |-- weather_monthly_state_clean_2024_jan2026.csv  # State-month weather context
-|   |-- raw/                                   # Raw data placeholder; raw source files are documented in docs/
-|   |-- integrated/                            # Integrated-output placeholder
+|   |-- raw/                                   # Raw-data structure retained; source provenance is documented in docs/
+|   |-- integrated/                            # Reserved for generated integrated outputs and workbook extracts
 |
 |-- Data Preperation/
 |   |-- 01_Data_cleaning/                      # Data cleaning notebook(s)

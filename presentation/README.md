@@ -25,11 +25,11 @@ Our stakeholder is a Federal Transport Minister reviewing national road safety f
 
 Narrative Arc
 
-We follow the Sparkline narrative arc — the story of the gap between where Australia currently sits on road fatalities and where it needs to be, framed around a funding decision.
+We follow a What -> So What -> What Next narrative arc: first the warning, then the concentration and human pattern, then the funding decision.
 
 ```
 THE SCALE          →    THE CONCENTRATION      →    THE OPPORTUNITY      →    THE ASK
-2,714 deaths             70.8% in two                96 lives saveable         3 targeted
+2,714 deaths             70.8% in two                96 potential lives       3 targeted
 +1.9% trend              intervention theatres       at just 5% reduction      funding actions
 ```
 
@@ -40,9 +40,9 @@ Live Dashboard
 Tableau Public: https://public.tableau.com/app/profile/shameel.zeshan.khader.sheriff/viz/RoadDeathsAreNotRandomAustraliasPreventableFatalityPattern/FinalDashboard
 
 The interactive dashboard supports:
-- State and year filtering with dynamic KPI updates
-- Geographic hotspot mapping at state level
-- What-if scenario modelling — select an intervention theatre and target reduction % to estimate potential lives saved
+- Population-adjusted state risk comparison for fair national prioritisation
+- Visual tooltips that reveal year values, population denominators, fatality counts, and category context
+- What-if scenario modelling: select an intervention theatre and target reduction % to estimate potential lives saved
 
 ---
 
@@ -51,7 +51,7 @@ Data Sources
 | Dataset | Source | Scope | Role |
 |---------|--------|-------|------|
 | Australian Road Deaths Database (ARDD) | [BITRE](https://www.bitre.gov.au/statistics/safety/fatal_road_crash_database) | 1989–Jan 2026, monthly updates | Primary — all fatality records including road type, user group, state, time of day |
-| ABS Population Data | [Australian Bureau of Statistics](https://www.abs.gov.au) | 2024 state-level projections | Enrichment — converts raw counts to per-capita rates for fair state comparison |
+| ABS Population Data | [Australian Bureau of Statistics](https://www.abs.gov.au) | State-year estimated resident population | Enrichment — converts raw counts to per-capita rates for fair state comparison |
 | Open-Meteo Historical Weather API | [Open-Meteo](https://open-meteo.com) | State-month context | Enrichment — seasonal and weather background context. Not used for crash-day causation |
 
 ---
@@ -88,7 +88,7 @@ Advanced Dashboard Features
 | Feature | Description |
 |---------|-------------|
 | **What-If Parameterisation** | Select intervention theatre + target reduction % → see potential lives saved |
-| **Context-Aware Filtering** | State and year selections dynamically update all KPIs and charts |
+| **Context-Aware Filtering** | Intervention theatre selections dynamically update the potential lives saved estimate |
 | **Visual Tooltips** | Hover on charts reveals detailed breakdown by road type and user group |
 
 ---
@@ -136,12 +136,12 @@ Data Dictionary
 
 | Variable | Type | Source | Description |
 |----------|------|--------|-------------|
-| Crash Date | Datetime | BITRE ARDD | Date and time of fatal crash |
+| Year / Month / Time | Temporal | BITRE ARDD | Fatality timing fields used for trend, monthly context, day-of-week, and time-band analysis |
 | State | Categorical | BITRE ARDD | Australian state or territory |
 | Road Type | Categorical | BITRE ARDD | Regional high-speed / Major-city urban / Other |
 | User Group | Categorical | BITRE ARDD | Vehicle occupant / Vulnerable road user |
-| Fatalities | Integer | BITRE ARDD | Number of deaths per crash record |
-| Population | Integer | ABS | State-level population estimate (2024 projection) |
+| Fatalities | Integer | BITRE ARDD | Number of fatality records, counted as one death per row |
+| Population | Integer | ABS | State-year estimated resident population |
 | Deaths per 100k | Float | Derived | Fatalities / Population × 100,000 |
 | Weather Context | Categorical | Open-Meteo | State-month seasonal condition (context only) |
 
@@ -150,9 +150,9 @@ Data Dictionary
 Methodology Notes
 
 - Weather data is used as **state-month context only** — it is not attributed to individual crash causation
-- Population-adjusted rates use ABS 2024 projections applied to ARDD state-level counts
-- The what-if model applies a proportional reduction to historical fatality counts — a conservative linear approximation
-- All three datasets were joined using state (spatial key) and state+month (temporal key)
+- Population-adjusted rates use ABS state-year estimated resident population as the denominator
+- The what-if model applies a proportional reduction to selected recent fatalities; it is a scenario estimate, not a causal forecast
+- Population joins use `state + year`; weather joins use `state + year + month`
 
 ---
 

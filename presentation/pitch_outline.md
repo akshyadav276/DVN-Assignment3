@@ -10,14 +10,14 @@
 | **Title** | The Everyday Fatality Pattern: Where Australia Should Target Road Safety Funding First |
 | **Duration** | 5 minutes + 1.5 min Q&A |
 | **Stakeholder Hat** | Federal Transport Minister reviewing national road safety funding priorities |
-| **Narrative Arc** | Sparkline — concentration of fatalities in targetable road environments |
+| **Narrative Arc** | What -> So What -> What Next |
 | **Decision Question** | Which road safety theatres should receive priority funding to reduce fatalities fastest and most fairly? |
 | **Tool** | Tableau Public |
 | **Orator** | Pal Patel |
 
 ---
 
-## Narrative Arc — The Sparkline
+## Narrative Arc — What -> So What -> What Next
 
 The story is not just that road deaths happen. The story is that recent fatalities are **concentrating in specific road environments** — which means funding can be targeted much more intelligently.
 
@@ -157,7 +157,7 @@ Every visual answers one part of the Federal Transport Minister's national fundi
 | Dataset | Source | Update Frequency | Role |
 |---------|--------|-----------------|------|
 | BITRE ARDD | [bitre.gov.au](https://www.bitre.gov.au/statistics/safety/fatal_road_crash_database) | Monthly (to Jan 2026) | Primary fatality records |
-| ABS Population Data | [abs.gov.au](https://www.abs.gov.au) | Annual (2024 projections) | Per-capita rate normalisation |
+| ABS Population Data | [abs.gov.au](https://www.abs.gov.au) | State-year estimated resident population | Per-capita rate normalisation |
 | Open-Meteo Historical Weather API | [open-meteo.com](https://open-meteo.com) | Historical | Seasonal context only |
 
 ---
@@ -167,7 +167,7 @@ Every visual answers one part of the Federal Transport Minister's national fundi
 | Feature | Slide Reference | Description |
 |---------|----------------|-------------|
 | What-If Parameterisation | Slide 7 | Select theatre + target % → lives saved updates dynamically |
-| Context-Aware Filtering | All data slides | State/year selections update all KPIs and charts in sync |
+| Context-Aware Filtering | What-if panel | Intervention theatre selections update the potential lives saved estimate |
 | Visual Tooltips | Slides 3, 4, 5 | Hover reveals population denominators, exact counts, theatre breakdowns |
 
 ---

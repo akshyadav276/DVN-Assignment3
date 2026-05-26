@@ -105,7 +105,7 @@ This data dictionary covers the cleaned datasets used for the road-fatality narr
 |---|---|---|
 | Fatalities | `SUM(deaths)` or `SUM(fatalities)` | Core count measure. |
 | Fatalities per 100,000 | `SUM(deaths) / AVG(population) * 100000` | Fair state risk comparison after joining population. |
-| Lives saveable | `Selected fatalities * reduction parameter` | What-if decision panel. |
+| Potential lives saved | `Selected fatalities * reduction parameter` | What-if decision panel. |
 | Latest fatalities | Filter `analysis_window = Recent: 2024-Jan 2026` | Latest policy window KPI. |
 | Full recent comparison | Filter `full_recent_year = 2024-2025 full years` | Fair 2024 vs 2025 comparison. |
 

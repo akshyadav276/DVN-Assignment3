@@ -70,8 +70,8 @@ Shameel requested all project communication be kept in this channel.
 **Attendees:** All members
 
 **Discussed:**
-- Part 3 final portfolio submission due 23 May 2026 (extended deadline)
-- Video walkthrough to be recorded and completed by 22 May 2026
+- Part 3 final portfolio submission being prepared for the final extended deadline of 26 May 2026
+- Video walkthrough to be recorded and completed before submission
 
 **Action items:**
-- Team: video walkthrough (3-minute Tableau tour covering the three advanced features) to be completed by 22 May 2026
+- Team: video walkthrough (3-minute Tableau tour covering the three advanced features) to be completed before submission

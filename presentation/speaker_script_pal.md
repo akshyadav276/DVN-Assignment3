@@ -40,7 +40,7 @@ SLIDE 2 — About the Data *(0:20–0:40)*
 
 > "Now that you know who we're speaking to, let me briefly show you what data we used — because the credibility of every number you're about to see depends on it.
 >
-> Our primary dataset is the Australian Road Deaths Database, published by BITRE, updated monthly through January 2026. Every crash record includes road type, user group, state, and time of day — over 35 years of data.
+> Our primary dataset is the Australian Road Deaths Database, published by BITRE, updated monthly through January 2026. Each fatality record includes road environment, road-user type, state, year, month, day of week, and time of day — over 35 years of data.
 >
 > We enriched it with two additional sources. First, ABS population data, so we can calculate per-capita risk rates rather than raw counts — that's what makes state comparisons fair. Second, the Open-Meteo historical weather API, which adds seasonal context to the timing patterns we found.
 >

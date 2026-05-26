@@ -19,11 +19,10 @@
 - Use one primary dashboard page.
 - Keep visuals purposeful and avoid decorative charts.
 - Move secondary details such as weather and heavy vehicles into tooltips.
-- Use plain labels such as "fatalities per 100,000" and "lives saveable".
+- Use plain labels such as "fatalities per 100,000" and "potential lives saved".
 
 ## Accessibility
 
 - Use high-contrast text and backgrounds.
 - Avoid relying on red/green alone.
 - Keep labels readable and tooltips concise.
-

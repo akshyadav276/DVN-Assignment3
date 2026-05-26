@@ -18,7 +18,7 @@
 
 ## Dashboard Grain
 
-- `master_dashboard.csv`: one row per fatality.
-- `state_year_rates.csv`: one row per state-year.
-- `state_month_dashboard.csv`: one row per state-month.
-
+- Tableau integrated extract / `master_dashboard_story`: one row per fatality in the dashboard-ready model.
+- `population_state_year_clean.csv`: one row per state-year for the population denominator.
+- `bitre_state_month.csv`: one row per state-month for efficient trend and monthly aggregation support.
+- `weather_monthly_state_clean_2024_jan2026.csv`: one row per state-month for contextual weather enrichment.
