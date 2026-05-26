@@ -145,7 +145,7 @@ The dashboard uses a restrained policy-style design system.
 | Design choice | Rationale |
 |---|---|
 | Blue baseline marks | Neutral evidence and comparison values |
-| Orange highlight marks | Pre-attentive attention cue for priority insights, selected high-risk patterns, and key callouts |
+| Orange highlight marks | Orange is used as a universal attention signal — it marks the highest-risk element within each chart, not a fixed category.|
 | Grey secondary marks | Mixed or lower-priority context that should remain visible but not dominate |
 | Direct labels | Reduces cognitive load and avoids forcing the viewer to cross-reference legends |
 | Story tabs | Breaks the analysis into smaller steps before showing the final decision summary |
