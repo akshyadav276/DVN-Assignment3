@@ -277,8 +277,8 @@ DVN-Assignment3/
 |---|---|
 | Tableau Public | Interactive dashboard, story tabs, tooltips, parameter controls, and public deployment |
 | Python / pandas | Data cleaning, validation, integration, derived fields, and EDA |
-| GitHub | Code-track version control and final portfolio documentation |
-| SharePoint / Teams | Design and strategy collaboration, presentation coordination, and group evidence |
+| GitHub | Code-track version control plus design and strategy artefacts, including persona, visual design notes, scripts, slides, and final portfolio documentation |
+| Microsoft Teams | Project update channel for notifying the group about dashboard, data, documentation, and presentation progress |
 | PowerPoint | Part 2 pitch deck and supporting presentation material |
 
 ### Frameworks And References

@@ -4,12 +4,12 @@ Owner: Akshita Yadav (Coordinator)
 
 ---
 
-## Group Chat Created — Tuesday 1:29 am
+## Team Update Channel Created — Tuesday 1:29 am
 
 Shameel added all members to the DVN AT3 Groups group:
 Muhammad A., Pal P., Sonika N., Akshita Y., Karthik R., Remith S.
 
-Shameel requested all project communication be kept in this channel.
+Teams was used to publish project updates, while the code, persona, design notes, scripts, slides, and documentation artefacts were maintained through GitHub.
 
 ---
 

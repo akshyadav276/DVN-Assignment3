@@ -14,6 +14,7 @@
 | Audience | Federal Transport Minister reviewing national road safety funding priorities |
 | Core argument | 70.8% of recent Australian road fatalities concentrate in two targetable intervention theatres |
 | Dashboard tool | Tableau Public |
+| Collaboration model | GitHub held the code, design, persona, script, slide, and documentation artefacts; Teams was used for project update notifications |
 
 ---
 
@@ -164,9 +165,9 @@
 
 ## Meeting Log
 
-### Group Chat Created — Tuesday 1:29 am (approx. late April)
+### Team Update Channel Created — Tuesday 1:29 am (approx. late April)
 - Shameel added all members to the DVN AT3 Teams group: Muhammad A., Pal P., Sonika N., Akshita Y., Karthik R., Remith S.
-- All project communication to be kept in the Teams channel.
+- Teams was used to notify the group about updates, while project artefacts were maintained in GitHub.
 
 ### Data Cleaning Update — Tuesday 10:45 pm
 - **Remith** shared updated cleaned datasets and Python notebook.

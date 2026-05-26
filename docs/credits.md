@@ -14,6 +14,5 @@
 |---|---|
 | Python / pandas | Cleaning, validation, integration, EDA |
 | Tableau | Interactive dashboard and narrative visualisation |
-| GitHub | Code-track version control |
-| SharePoint / Teams | Design, strategy, coordination, and submission evidence |
-
+| GitHub | Code-track version control plus design and strategy artefacts, including persona, visual design notes, scripts, slides, and final documentation |
+| Microsoft Teams | Project update channel for notifying the group about dashboard, data, documentation, and presentation progress |
