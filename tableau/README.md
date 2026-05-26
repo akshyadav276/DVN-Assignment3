@@ -10,7 +10,7 @@ This Tableau workbook presents a data narrative about recent Australian road fat
 
 ## Live Dashboard
 
-Tableau Public: [The Everyday Fatality Pattern](https://public.tableau.com/app/profile/shameel.zeshan.khader.sheriff/viz/DVNAT3Final/FinalDashboard)
+Tableau Public: [The Everyday Fatality Pattern](https://public.tableau.com/app/profile/shameel.zeshan.khader.sheriff/viz/RoadDeathsAreNotRandomAustraliasPreventableFatalityPattern/FinalDashboard)
 
 Workbook file: `DVN AT3 Final.twbx`
 

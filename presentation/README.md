@@ -37,7 +37,7 @@ THE SCALE          →    THE CONCENTRATION      →    THE OPPORTUNITY      →
 
 Live Dashboard
 
-Tableau Public: https://public.tableau.com/app/profile/shameel.zeshan.khader.sheriff/viz/DVNAT3_17785102792850/Dashboard1
+Tableau Public: https://public.tableau.com/app/profile/shameel.zeshan.khader.sheriff/viz/RoadDeathsAreNotRandomAustraliasPreventableFatalityPattern/FinalDashboard
 
 The interactive dashboard supports:
 - State and year filtering with dynamic KPI updates
@@ -128,7 +128,7 @@ Assessment Timeline
 |------|------------|--------|
 | Part 1 | Individual proposal + team plan | ✅ Submitted 19 April 2026 |
 | **Part 2** | **Live pitch + slides** | **✅ Submitted 13 May 2026** |
-| Part 3 | Final portfolio + video walkthrough | 🔄 Due 17 May 2026 |
+| Part 3 | Final portfolio + video walkthrough | 🔄 Due 26 May 2026 |
 
 ---
 
