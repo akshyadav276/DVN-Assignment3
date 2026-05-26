@@ -11,6 +11,8 @@ Group 18 | 36104 Data Visualisation and Narratives | May 2026
 
 **Live Tableau dashboard:** [The Everyday Fatality Pattern](https://public.tableau.com/app/profile/shameel.zeshan.khader.sheriff/viz/RoadDeathsAreNotRandomAustraliasPreventableFatalityPattern/FinalDashboard)
 
+**Video walkthrough:** [3-minute technical walkthrough](https://youtu.be/NHzn_t8_Xpc)
+
 **Tableau workbook:** [`tableau/DVN AT3 Final.twbx`](tableau/DVN%20AT3%20Final.twbx)
 
 **Technical Tableau documentation:** [`tableau/README.md`](tableau/README.md)
@@ -117,6 +119,8 @@ Full methodology: [`docs/methodology.md`](docs/methodology.md)
 
 Full data dictionary:
 
+- [`data_dictionary.csv`](data_dictionary.csv)
+- [`calculated_fields_dictionary.csv`](calculated_fields_dictionary.csv)
 - [`docs/data_dictionary.csv`](docs/data_dictionary.csv)
 - [`docs/data_dictionary.md`](docs/data_dictionary.md)
 
@@ -189,6 +193,8 @@ Full limitations: [`docs/limitations.md`](docs/limitations.md)
 DVN-Assignment3/
 |
 |-- README.md                                  # Final portfolio landing page with dashboard link, story, methods, credits, and limitations
+|-- data_dictionary.csv                        # Root copy of the mandatory data dictionary for marker access
+|-- calculated_fields_dictionary.csv           # Tableau calculated fields, parameters, and scenario logic dictionary
 |
 |-- tableau/
 |   |-- DVN AT3 Final.twbx                     # Packaged Tableau workbook for the final dashboard and story tabs
@@ -220,7 +226,8 @@ DVN-Assignment3/
 |   |   |-- population_state_year_clean.csv     # Cleaned ABS population data
 |   |   |-- weather_monthly_state_clean_2024_jan2026.csv  # State-month weather context
 |   |-- raw/                                   # Raw-data structure retained; source provenance is documented in docs/
-|   |-- integrated/                            # Reserved for generated integrated outputs and workbook extracts
+|   |-- integrated/
+|   |   |-- master_dashboard_story.csv           # Main Tableau-ready integrated fatality-level dataset
 |
 |-- Data Preperation/
 |   |-- 01_Data_cleaning/                      # Data cleaning notebook(s)

@@ -6,10 +6,24 @@ This data dictionary covers the cleaned datasets used for the road-fatality narr
 
 | File | Rows | Columns | Grain | Main Dashboard Use |
 |---|---:|---:|---|---|
+| `master_dashboard_story.csv` | 58,284 | 55 | One row per fatality, with population and weather fields joined in | Main Tableau-ready integrated dataset used by the packaged workbook |
 | `bitre_clean_detail.csv` | 58,284 | 34 | One row per fatality | Main detailed fatality dataset for historical and pattern analysis |
 | `bitre_state_month.csv` | 3,367 | 6 | One row per state-month | Efficient historical trend chart |
 | `population_state_year_clean.csv` | 360 | 5 | One row per state-year | Fatalities per 100,000 population |
 | `weather_monthly_state_clean_2024_jan2026.csv` | 200 | 15 | One row per state-month | Latest-period weather context |
+
+## Main Tableau Dataset: `master_dashboard_story.csv`
+
+This is the dashboard-ready integrated file stored in `data/integrated/`. It keeps the BITRE fatality row as the base grain and adds the population, weather-context, and narrative classification fields needed by Tableau.
+
+It contains:
+
+- the cleaned BITRE fatality fields from `bitre_clean_detail.csv`
+- ABS population fields joined by `state + year`
+- Open-Meteo weather fields joined by `state + year + month`
+- Tableau/story fields such as `intervention_theatre`, `policy_target_group`, `rate_analysis_window`, and `weather_analysis_window`
+
+Because the integrated file repeats population values across fatality rows after joining, Tableau rate calculations use `AVG(population)` rather than `SUM(population)`.
 
 ## `bitre_clean_detail.csv`
 
@@ -100,6 +114,8 @@ This data dictionary covers the cleaned datasets used for the road-fatality narr
 | BITRE detail to state-month trend | Not required | The state-month file is a pre-aggregated helper | Use either detail or aggregate, not both in the same calculation, to avoid double counting. |
 
 ## Recommended Calculated Measures
+
+For the full Tableau calculated-fields dictionary, see [`../calculated_fields_dictionary.csv`](../calculated_fields_dictionary.csv).
 
 | Measure | Formula | Use |
 |---|---|---|
