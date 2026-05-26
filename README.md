@@ -225,7 +225,10 @@ DVN-Assignment3/
 |   |   |-- bitre_state_month.csv               # State-month fatality aggregation
 |   |   |-- population_state_year_clean.csv     # Cleaned ABS population data
 |   |   |-- weather_monthly_state_clean_2024_jan2026.csv  # State-month weather context
-|   |-- raw/                                   # Raw-data structure retained; source provenance is documented in docs/
+|   |-- raw/
+|   |   |-- bitre_fatalities_jan2026.xlsx        # Raw BITRE road fatalities source file
+|   |   |-- 310104.xlsx                          # Raw ABS population source file
+|   |   |-- weather_monthly_state_clean_2024_jan2026 (1).csv  # Raw/weather-source context file used for weather preparation
 |   |-- integrated/
 |   |   |-- master_dashboard_story.csv           # Main Tableau-ready integrated fatality-level dataset
 |

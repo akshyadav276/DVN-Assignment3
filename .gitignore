@@ -6,7 +6,4 @@ __pycache__/
 *.tmp
 *.log
 
-# Keep raw/large local files out of Git unless the team agrees to commit them.
-data/raw/*
-!data/raw/.gitkeep
-
+# Assignment raw source files are included for final portfolio provenance.
