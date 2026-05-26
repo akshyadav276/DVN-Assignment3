@@ -17,11 +17,9 @@ We analysed 2,714 fatalities recorded between 2024 and January 2026 across the A
 
 Target Audience
 
-Stakeholder Hat: National Road Safety Funding Committee
+Stakeholder Hat: Federal Transport Minister reviewing national road safety funding priorities
 
-Our stakeholder is a national road safety funding committee advising the Federal Transport Minister. They need to decide where limited road safety funding should be targeted first.
-
-Secondary stakeholders: State transport agencies and road safety decision-makers across Australian jurisdictions.
+Our stakeholder is a Federal Transport Minister reviewing national road safety funding priorities. They need to decide which road environments and road-user groups should receive priority attention across Australia.
 
 ---
 
@@ -31,7 +29,7 @@ We follow the Sparkline narrative arc — the story of the gap between where Aus
 
 ```
 THE SCALE          →    THE CONCENTRATION      →    THE OPPORTUNITY      →    THE ASK
-2,714 deaths             70.8% in two                136 lives saveable        3 targeted
+2,714 deaths             70.8% in two                96 lives saveable         3 targeted
 +1.9% trend              intervention theatres       at just 5% reduction      funding actions
 ```
 
@@ -66,10 +64,10 @@ Key Findings
 | Year-on-year change | +1.9% (2024 to 2025) |
 | Highest state risk | NT — 37.4 deaths per 100,000 population |
 | Lowest state risk | ACT — 4.2 deaths per 100,000 population |
-| Risk disparity | NT drivers face 8.9× higher risk than ACT drivers |
+| Highest resident risk | NT — 37.4 deaths per 100,000 population |
 | Concentration | 70.8% of deaths in two intervention theatres |
 | Deadliest cell | Sunday Daytime — 198 deaths |
-| Lives saveable | 136 at just 5% targeted intervention across all theatres |
+| Lives saveable | 96 at a 5% targeted reduction across the two priority theatres |
 
 ---
 
@@ -97,10 +95,10 @@ Advanced Dashboard Features
 
 Call to Action
 
-Three evidence-based recommendations for the National Road Safety Funding Committee:
+Three evidence-based recommendations for the Federal Transport Minister:
 
 **01 — Prioritise Regional Roads in the Next Funding Cycle**
-Regional roads carry 39% of all deaths — the highest of any theatre — yet receive the smallest share of safety investment. NT, WA, and QLD are the priority states.
+Regional high-speed roads carry the largest fatality count of any theatre. They should be prioritised for infrastructure, speed-management, and regional safety interventions.
 
 **02 — Protect Urban Pedestrians and Cyclists Before Fatalities Rise Further**
 Major-city streets account for 30% of deaths, overwhelmingly affecting pedestrians and cyclists. Targeted speed reduction and infrastructure upgrades will address the city-specific risk profile.

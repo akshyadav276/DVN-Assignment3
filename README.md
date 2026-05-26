@@ -7,9 +7,9 @@
 
 ## Project Overview
 
-We are a specialist data consultancy presenting to an **Australian Transport Minister / Road Safety Funding Committee**.
+We are a specialist data consultancy presenting to a **Federal Transport Minister reviewing national road safety funding priorities**.
 
-Our dashboard transforms road fatality data into a decision tool. The project uses historical BITRE fatality data, ABS population enrichment, and latest-period weather context to identify where targeted intervention should go first.
+Our dashboard transforms road fatality data into a national decision tool. The project uses historical BITRE fatality data, ABS population enrichment, and latest-period weather context to identify where targeted intervention should go first across Australia.
 
 ## Core Story
 
@@ -20,7 +20,7 @@ Australia's road fatalities have fallen since 1989, but recent progress has stal
 1. Regional high-speed vehicle-occupant fatalities.
 2. Urban arterial vulnerable-road-user fatalities.
 
-The dashboard is designed to help policymakers choose targeted interventions rather than relying on a single generic road-safety campaign.
+The dashboard is designed to help the Federal Transport Minister choose targeted interventions rather than relying on a single generic road-safety campaign.
 
 ---
 
@@ -62,7 +62,7 @@ The dashboard is designed to help policymakers choose targeted interventions rat
 |---------|--------|
 | **Narrative Arc** | The Detective |
 | **Core Argument** | Road deaths feel random, but the data reveals repeatable intervention patterns |
-| **Target Audience** | Australian Transport Minister / Road Safety Funding Committee |
+| **Target Audience** | Federal Transport Minister reviewing national road safety funding priorities |
 | **Call to Action** | Fund targeted intervention in high-risk road environments and user groups |
 
 ---

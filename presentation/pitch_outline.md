@@ -9,7 +9,7 @@
 |------|--------|
 | **Title** | The Everyday Fatality Pattern: Where Australia Should Target Road Safety Funding First |
 | **Duration** | 5 minutes + 1.5 min Q&A |
-| **Stakeholder Hat** | National Road Safety Funding Committee & Federal Transport Minister |
+| **Stakeholder Hat** | Federal Transport Minister reviewing national road safety funding priorities |
 | **Narrative Arc** | Sparkline — concentration of fatalities in targetable road environments |
 | **Decision Question** | Which road safety theatres should receive priority funding to reduce fatalities fastest and most fairly? |
 | **Tool** | Tableau Public |
@@ -23,11 +23,11 @@ The story is not just that road deaths happen. The story is that recent fataliti
 
 ```
 WARNING          →    FAIRNESS LENS      →    FOCUS LENS         →    DECISION TOOL
-Trend reversing       Population-adjusted      70.8% in two            136 lives at
+Trend reversing       Population-adjusted      70.8% in two            96 lives at
 after 2020 low        state risk rates         intervention theatres   5% intervention
 ```
 
-Every visual answers one part of the funding committee's decision question.
+Every visual answers one part of the Federal Transport Minister's national funding-priority decision question.
 
 ---
 
@@ -49,7 +49,7 @@ Every visual answers one part of the funding committee's decision question.
   - BITRE ARDD — primary fatality records (1989–Jan 2026)
   - ABS Population Data — enables per-capita state comparison
   - Open-Meteo Weather API — seasonal context only, not crash causation
-- **Narrative function:** Transparency builds trust with a funding committee audience
+- **Narrative function:** Transparency builds trust with a strategy and funding audience
 
 ---
 
@@ -65,7 +65,7 @@ Every visual answers one part of the funding committee's decision question.
 
 ### Slide 4 — The Where
 - **Purpose:** Fairness lens — population-adjusted state risk + intervention theatre definition
-- **Key message:** NT has 37.4 deaths per 100k — 8.9× higher than ACT. Same country, same laws.
+- **Key message:** NT has the highest resident risk at 37.4 deaths per 100k, showing why population-adjusted comparison matters.
 - **Visual:** Horizontal bar chart by state (population-adjusted) + NT/ACT callout stats
 - **Narrative function:** Raw counts mislead — per-capita rates reveal true structural disparity
 - **Intervention theatre definition:**
@@ -100,8 +100,8 @@ Every visual answers one part of the funding committee's decision question.
 
 ### Slide 7 — The Opportunity
 - **Purpose:** Decision tool — translate analysis into potential lives saved
-- **Key message:** At 5% targeted reduction across both priority theatres, 136 potential lives saved.
-- **Visual:** Large 136 stat (left) + lives saved by theatre bar chart (right)
+- **Key message:** At 5% targeted reduction across both priority theatres, 96 potential lives saved.
+- **Visual:** Large 96 stat (left) + intervention theatre selector (right)
 - **Breakdown:** Regional high-speed: 53 lives | Major-city urban: 43 lives | Other: 40 lives
 - **Narrative function:** Moves audience from understanding the problem to testing what action achieves
 - **Dashboard link:** Directly mirrors the What-If Parameter Action widget — select theatre + % → lives saved updates live
@@ -114,7 +114,7 @@ Every visual answers one part of the funding committee's decision question.
 - **Purpose:** Three specific, evidence-based funding recommendations
 - **Key message:** The evidence is already visible. The remaining question is whether action follows.
 - **Actions:**
-  1. Prioritise regional roads in the next funding cycle (39% of deaths, highest-ROI theatre)
+  1. Prioritise regional roads in the next funding cycle (largest fatality theatre)
   2. Protect urban pedestrians and cyclists before fatalities rise further (30% of deaths, vulnerable users)
   3. Turn the dashboard into a national accountability tracker (already live on Tableau Public)
 - **Narrative function:** Closes the arc — from data to decision
@@ -140,12 +140,12 @@ Every visual answers one part of the funding committee's decision question.
 
 ---
 
-## User Persona — National Road Safety Funding Committee
+## User Persona — Federal Transport Minister Reviewing National Road Safety Funding Priorities
 
 | Attribute | Detail |
 |-----------|--------|
-| **Role** | Advises Federal Transport Minister on road safety budget allocation |
-| **Goal** | Direct limited funding to where it reduces fatalities fastest and most fairly |
+| **Role** | Reviews national road safety funding priorities |
+| **Goal** | Direct limited national attention and funding to road environments where intervention can reduce fatalities fastest and most fairly |
 | **Pain point** | Raw counts mislead — bigger states dominate without per-capita adjustment |
 | **What they need** | Fairness lens (per-capita state risk) + focus lens (intervention theatres) + decision tool (what-if) |
 | **What moves them to act** | Clear concentration finding + specific theatre recommendations + lives-saved estimate |

@@ -11,7 +11,7 @@ Australia's road fatalities have fallen since 1989, but recent progress has stal
 1. Regional high-speed vehicle-occupant fatalities.
 2. Urban arterial vulnerable-road-user fatalities.
 
-The dashboard helps a Transport Minister decide where targeted intervention should go first.
+The dashboard helps a Federal Transport Minister reviewing national road safety funding priorities decide which road environments should be prioritised first across Australia.
 
 ## Narrative Arc
 
@@ -23,4 +23,3 @@ The Detective.
 2. Raw counts versus population-adjusted risk.
 3. Repeat time and road-environment patterns.
 4. What-if lives-saved decision panel.
-

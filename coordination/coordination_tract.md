@@ -11,7 +11,7 @@
 | Assignment | DVN Assignment 3 — Data Narrative Studio |
 | Unit | 36104 Data Visualisation and Narratives — University of Technology Sydney |
 | Team | Group 18 — Sonika · Remith · Karthik · Asif · Shameel · Pal · Akshita |
-| Audience | Australian Transport Minister / National Road Safety Funding Committee |
+| Audience | Federal Transport Minister reviewing national road safety funding priorities |
 | Core argument | 70.8% of recent Australian road fatalities concentrate in two targetable intervention theatres |
 | Dashboard tool | Tableau Public |
 

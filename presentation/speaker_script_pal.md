@@ -1,7 +1,7 @@
 Speaker Script — Pal Patel (Orator)
 Presentation: The Everyday Fatality Pattern — Where Australia Should Target Road Safety Funding First**
 Role: Orator | Date: 13 May 2026 | Duration: 5 min + 1.5 min Q&A
-Stakeholder Hat: National Road Safety Funding Committee & Federal Transport Minister
+Stakeholder Hat: Federal Transport Minister reviewing national road safety funding priorities
 
 ---
 
@@ -28,7 +28,7 @@ Full Script
 
 SLIDE 1 — Title *(0:00–0:20)*
 
-> "Our stakeholder today is a national road safety funding committee advising the Federal Transport Minister. Their decision question is this: which road safety theatres should receive priority funding to reduce fatalities fastest and most fairly?
+> "Our stakeholder today is the Federal Transport Minister reviewing national road safety funding priorities. Their decision question is this: which road safety theatres should receive priority attention to reduce fatalities fastest and most fairly?
 >
 > That is exactly what our data answers."
 
@@ -72,7 +72,7 @@ SLIDE 4 — The Where *(1:00–1:30)*
 >
 > If we only look at raw death counts, bigger states dominate the conversation simply because they have more people. So we added ABS population data and calculated fatalities per 100,000 residents. That changes the picture.
 >
-> The Northern Territory has the highest resident risk — 37.4 fatalities per 100,000 people. The ACT has 4.2. That is the same country, the same national laws — and an 8.9 times difference in risk.
+> The Northern Territory has the highest resident risk — 37.4 fatalities per 100,000 people. The ACT has the lowest state risk at 4.2. That comparison shows why a population-adjusted fairness lens matters.
 >
 > But a fair funding decision also needs to know where the largest number of deaths are concentrating. So we created intervention theatre categories by combining remoteness and speed limit.
 >
@@ -120,11 +120,11 @@ Speaker note: "Everyday travel" is the myth-buster moment. Give it emphasis — 
 >
 > The stakeholder can choose which intervention theatres to target and set a reduction percentage. The calculation is transparent: selected fatalities from the latest intervention window, multiplied by the target reduction percentage.
 >
-> With both priority theatres selected and a modest 5% reduction target, the dashboard estimates 136 potential lives saved.
+> With both priority theatres selected and a modest 5% reduction target, the dashboard estimates 96 potential lives saved.
 >
-> This number changes when the user changes the selected theatre or the target percentage. So the dashboard is not only telling us what happened — it allows a funding committee to test what targeted action could achieve.
+> This number changes when the user changes the selected theatre or the target percentage. So the dashboard is not only telling us what happened — it allows the Federal Transport Minister to test what targeted action could achieve.
 >
-> Regional high-speed roads deliver the most lives saved per intervention dollar — 53 lives at 5%, the highest of any single theatre.
+> Regional high-speed roads deliver the largest single-theatre lives-saved opportunity in this scenario — 53 lives at 5%.
 >
 > The key message: small improvements in the highest-priority environments translate into measurable human impact."
 
@@ -136,9 +136,9 @@ Speaker note: This is the intellectual peak — slow down. "Measurable human imp
 
 > "The dashboard gives us the evidence. The final step is the decision.
 >
-> We are making three recommendations to the funding committee.
+> We are making three recommendations to the Federal Transport Minister.
 >
-> Action 01: Prioritise regional roads in the next funding cycle. They carry 39% of all deaths — the highest of any theatre — yet receive the smallest share of safety investment. NT, WA, and QLD are the priority states. This is the highest-ROI action available.
+> Action 01: Prioritise regional roads in the next funding cycle. They carry the highest fatality count of any theatre, which makes them the largest single opportunity for targeted safety action.
 >
 > Action 02: Protect urban pedestrians and cyclists before fatalities rise further. Major-city streets account for 30% of deaths, overwhelmingly affecting vulnerable road users. Targeted speed reduction and infrastructure upgrades will address the city-specific risk profile.
 >
@@ -174,7 +174,7 @@ Q&A Preparation — Quick Reference
 
 | Question | Key Answer |
 |----------|-----------|
-| How did you calculate 136 lives? | Dashboard what-if: selected fatalities × target reduction %. At 5% across both priority theatres. |
+| How did you calculate 96 lives? | Dashboard what-if: selected fatalities × target reduction %. At 5% across both priority theatres. |
 | Why exclude 2026 from trend? | Only January data available — comparing as full year would be misleading |
 | How did you define intervention theatres? | Remoteness + speed limit combination from BITRE fields |
 | Is weather a cause of crashes? | No — state-month context only, explicitly disclosed |
