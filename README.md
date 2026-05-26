@@ -25,6 +25,15 @@ Our dashboard transforms Australian road fatality data into a national funding d
 
 The dashboard therefore argues against generic road-safety messaging. It supports targeted national investment in the road environments where intervention can affect the most deaths.
 
+## SILO Alignment
+
+| Subject Intended Learning Outcome | How this portfolio demonstrates it |
+|---|---|
+| **SILO 1: Justify the selection and analysis of data as the basis for data narratives for different stakeholders** | The project selects BITRE fatality records as the primary real-world source because they contain national road death patterns relevant to a Federal Transport Minister. ABS population enrichment supports fair state comparison, while Open-Meteo is included only as state-month context with clear limitations. |
+| **SILO 2: Apply a range of visualisation and narrative techniques to a variety of data types** | The dashboard uses temporal trend analysis, population-adjusted state bars, intervention-theatre comparison, stacked road-user bars, a day/time heatmap, KPI cards, tooltips, and a what-if parameter. These visuals combine temporal, spatial, categorical, and derived scenario data. |
+| **SILO 3: Justify the selection of narrative tools and techniques to illuminate critical aspects of problems** | The Tableau story uses a What -> So What -> What Next arc to move from warning, to concentration, to human impact, to decision. Orange pre-attentive highlighting, Gestalt grouping, direct labels, and progressive story tabs reduce cognitive load and make the funding logic visible. |
+| **SILO 4: Justify and communicate data narratives to stakeholders from a range of industries and contexts drawing on relevant data patterns and analyses** | The final dashboard is designed for a national road-safety funding decision maker. It translates the 70.8% concentration finding, NT risk comparison, road-user patterns, timing heatmap, and 96-lives what-if estimate into a clear recommendation for targeted policy action. |
+
 ## Key Findings
 
 | Finding | Evidence |
